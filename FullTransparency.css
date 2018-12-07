@@ -1,18 +1,3 @@
-:root {
-
-    --brightness: rgba(0, 0, 0, 0.8) ;    /* Main theme brightness / background colour */
-    --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Keep at 0. Adjust the 4th number(alpha) if using a light wallaper. */ 
-    --settings: rgba(0, 0, 0, 0.4) ;        /* Settings Transparency */
-
-    --accent: rgba(0, 255, 215, 0.5) ;
-    --unread: rgba(0, 255, 215, 0.5) ;
-
-    --font: sans-serif;
-    --fontsize: .9em;
-    --textcolor: #fff;
-
-}
-
 /* Brightness */
 .appMount-3VJmYg {background:var(--brightness)}
 #app-mount{background:}
