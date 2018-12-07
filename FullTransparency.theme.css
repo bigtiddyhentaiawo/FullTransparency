@@ -1,0 +1,29 @@
+//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. Lightweight with the ability to expand using addon's.  - Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+@import url('https://satoru8.github.io/FullTransparency/FullTransparency.css');
+@import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
+@import url('https://satoru8.github.io/Addons/GlowStatus.css');
+
+:root {
+
+    --brightness: rgba(0, 0, 0, 0.8) ;    /* Main theme brightness / background colour */
+    --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Keep at 0. Adjust the 4th number(alpha) if using a light wallaper. */ 
+    --settings: rgba(0, 0, 0, 0.4) ;        /* Settings Transparency */
+
+    --accent: rgba(0, 255, 215, 0.5) ;
+    --unread: rgba(0, 255, 215, 0.5) ;
+
+    --font: sans-serif;
+    --fontsize: .9em;
+    --textcolor: #fff;
+	
+	/* GlowStatus */
+    --round: 50%; /* 0% Square, 50% Circle */
+    --sglow: 5px 1px; /* Blur/Thickness Default: 5px 2px */
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+}
