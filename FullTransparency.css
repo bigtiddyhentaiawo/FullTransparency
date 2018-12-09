@@ -1,6 +1,5 @@
 /* Brightness */
 .appMount-3VJmYg {background:var(--brightness)}
-#app-mount{background:}
 #app-mount .layer-3QrUeG,.titleBar-AC4pGV::after {background: var(--bgLayer)}
 .titleBar-AC4pGV::after {content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px} /* Titlebar layer */
 .backdrop-1wrmKB {background:rgba(0, 0, 0, 0.1) !important}
@@ -98,6 +97,9 @@
 
 .theme-dark .reaction-1ELvT8 {background:transparent;box-shadow:0 0 5px var(--accent);border-radius:6px}
 .theme-dark .reactionCount-2ddRoS {color:#fff}
+.theme-dark .sidebar-1-SQro,
+.theme-dark .container-1If-HZ, 
+.theme-dark .reactors-Blmlhw {background: transparent}
 /* Guilds*/
 #app-mount .guildsWrapper-5TJh6A {background: transparent}
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0, 0, 0, 0.5)}
@@ -170,10 +172,6 @@
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
     background:rgba(0, 0, 0, 0.2);border: none; box-shadow: 0 0 5px var(--accent);margin:2px
 }
-
-
-
-
 
 /*Members small */
 #app-mount .headerNormal-T_seeN,.headerPlaying-j0WQBV,.headerSpotify-zpWxgT,.headerStreaming-2FjmGz,
