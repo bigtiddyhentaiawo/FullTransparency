@@ -48,7 +48,7 @@
 
 /* Channels/Members */
 .iconDefault-3Gr8d2, .nameDefault-2DI02H {color:#fff}
-.nameCollapsed-34uFWo, .nameDefault-2DI02H {text-align:center}
+.nameCollapsed-34uFWo, .nameDefault-2DI02H,.nameHovered-1gxhWH,.nameHoveredCollapsed-2orEWB {text-align:center}
 #app-mount .membersGroup-v9BXpm {text-align: center}
 #app-mount .members-1998pB {background: transparent}
 #app-mount .membersGroup-v9BXpm,#app-mount .activity-1IYsbk {color: rgba(210, 210, 210, 0.8)}
