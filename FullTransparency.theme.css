@@ -1,4 +1,4 @@
-//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. Lightweight with the ability to expand using addon's.  - Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. Lightweight with the ability to expand using addon's.  - Please use the support server listed below if you need any help.","author":"Satoru","version":"0.1","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css');
 @import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
@@ -19,7 +19,7 @@
     --textcolor: #fff;
 
     --profileradius: 0px; /* 0 is normal squared edges. Up to 50px for rounded profiles. */
-	--color: #fff /* PFP Name colour */
+	--color: #fff; /* PFP Name colour */
 	
 	/* GlowStatus */
     --round: 50%; /* 0% Square, 50% Circle */
