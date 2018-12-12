@@ -7,7 +7,7 @@
 
 :root {
 
-    --brightness: rgba(0, 0, 0, 0.8) ;    /* Main theme brightness / background colour */
+    --brightness: rgba(0, 0, 0, 0.75) ;    /* Main theme brightness / background colour */
     --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Keep at 0. Adjust the 4th number(alpha) if using a light wallaper. */ 
     --settings: rgba(0, 0, 0, 0.4) ;        /* Settings Transparency */
 	

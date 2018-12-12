@@ -45,7 +45,7 @@
 #app-mount .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {visibility:hidden}
 
 #app-mount .hljs {color:rgba(255, 255, 255, 0.9)}
-
+.reactionBtn-2na4rd,.button-3Jq0g9{opacity:1}
 /* Channels/Members */
 .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {background: none;padding: 20px 10px 10px}
 .channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {background: none}
@@ -252,6 +252,7 @@
 #app-mount .keyboardShortcutsModal-3piNz7 {background: rgba(0, 0, 0, 0.8);box-shadow:0 0 5px var(--accent)}
 #app-mount .modalSubtitle-1Pj5nv {border:none;box-shadow:0 1px 3px var(--accent)}
 
+.theme-dark.contextMenu-HLZMGh {animation: context-menu .3s ease-out }
 .theme-dark.contextMenu-HLZMGh,#app-mount .container-3cGP6G {background: rgba(0, 0, 0, 0.9);box-shadow: 0 0 5px var(--accent)}
 #app-mount .itemSubMenu-1vN_Yn:hover,#app-mount .item-1Yvehc:hover {background:transparent; box-shadow: 0 0 5px var(--accent)}
 
@@ -259,8 +260,10 @@
 #app-mount .footer-2yfCgX {background-color: transparent;box-shadow: none}
 
 /* Upload */ 
-.uploadModal-2ifh8j,.uploadModal-2ifh8j .footer-3mqk7D {background:rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--accent)}
+.uploadModal-2ifh8j,.uploadModal-2ifh8j .footer-3mqk7D {background:rgba(0, 0, 0, 0.5);box-shadow:0 0 5px var(--accent)}
 .uploadModal-2ifh8j .inner-3nWsbo {border: none}
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D .button {background-color: transparent;color:var(--accent);height:38px;}
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary:hover {opacity: 1;text-decoration: underline}
 /* Need Help */
 
 
@@ -306,6 +309,8 @@
 @keyframes sliding	{0%{transform:rotateY(-90deg);transform:rotateY(-90deg)}100%{transform:none}}
 @keyframes toppopout	{from{transform:translate(0,-25px);opacity:0}}
 @keyframes slide-down	{from{transform: translate(0, -100%)}}
+@keyframes popout	{0% {transform: scale(0)}100% {transform: scale(1)}}
+@keyframes context-menu	{from{opacity:0;transform:scale(0.3) translate3d(0,0,0)} to{opacity:1;transform:scale(1) translate3d(0,0,0)}}
 
 /* Plugin Support */
 .bgModal {box-shadow:0 0 5px var(--accent)}
@@ -322,8 +327,9 @@
 .recTab.active,.favTab.active {background: var(--accent)}
 .rLinks, .fLinks {box-shadow:0 0 4px var(--accent)}
 
-#dv-mount {background: transparent;height: 70px;width: 100%}
-#dv-main {border:none}
+#dv-mount {background-color: transparent;height: 60px}
+#dv-main .dv-date {opacity: 1}
+.membersWrap-2h-GB4 .members-1998pB {height: calc(100% - 60px)}
 
 #app-mount .dst-tooltip{background:rgba(0, 0, 0, 0.8) !important;box-shadow:0 0 5px var(--accent)}
 
