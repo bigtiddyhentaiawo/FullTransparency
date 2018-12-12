@@ -13,7 +13,7 @@
 	
     --accent: rgba(0, 255, 215, 0.5) ;
     --unread: rgba(0, 255, 215, 0.5) ;
-	--sb: rgba(0, 255, 215, 0.2) ;			/* Scrollbars. */
+	--sb: 	  rgba(0, 255, 215, 0.2) ;			/* Scrollbars. */
 
     --font: sans-serif;
     --fontsize: .9em;
@@ -32,3 +32,7 @@
     --dnd: #f04747;
     --invis: #1a36fa;
 }
+
+/*  
+.appMount-3VJmYg {background: url('')center/cover no-repeat}  
+*/
