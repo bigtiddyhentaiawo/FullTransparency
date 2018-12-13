@@ -1,4 +1,4 @@
-//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. Able to expand using addon's.  - Please use the support server listed below if you need any help.","author":"Satoru","version":"0.1","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. Able to expand using addon's.  - Please use the support server listed below if you need any help.","author":"Satoru","version":"0.2","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css');
 @import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
@@ -9,7 +9,7 @@
 
     --brightness: rgba(0, 0, 0, 0.75) ;    /* Main theme brightness / background colour */
     --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Keep at 0. Adjust the 4th number(alpha) if using a light wallaper. */ 
-    --settings: rgba(0, 0, 0, 0.4) ;        /* Settings Transparency */
+    --settings: rgba(0, 0, 0, 0.7) ;        /* Settings Transparency */
 	
     --accent: rgba(0, 255, 215, 0.5) ;
     --unread: rgba(0, 255, 215, 0.5) ;
