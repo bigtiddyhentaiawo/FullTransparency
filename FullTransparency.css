@@ -95,7 +95,7 @@
 /* VideoChat */
 #app-mount .wrapper-29NfPK,.video-1FfuMD,.videoBackgroundWrapper-2dCt49,
 #app-mount .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .wrapper-3eE7AX,
-#app-mount .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq {background:transparent}
+#app-mount .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq,.video-1kutKI {background:transparent}
 .backgroundBlur-dazcBE{background-image: none !important}
 .backgroundBlurOverlay-1JS5RF{background:transparent}
 /*Blocked Msgs*/
