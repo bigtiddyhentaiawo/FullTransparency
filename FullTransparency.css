@@ -123,8 +123,9 @@
 #app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {background: rgba(40, 40, 40, 0.9)}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: var(--accent)}
 
-#app-mount .reaction-1ELvT8 {background:transparent;box-shadow:0 0 5px var(--accent);border-radius:6px}
+#app-mount .reaction-1ELvT8 {background:rgba(0, 0, 0, 0.4);box-shadow:0 0 5px var(--accent);margin:3px;border-radius:6px}
 #app-mount .reactionCount-2ddRoS {color:#fff}
+#app-mount .reaction-1ELvT8.reactionMe-23mbRf {background:rgba(0, 0, 0, 0.8);box-shadow:0 0 5px 2px var(--accent);}
 #app-mount .sidebar-1-SQro,
 #app-mount .container-1If-HZ, 
 #app-mount .reactors-Blmlhw {background: transparent}
