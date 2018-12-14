@@ -101,7 +101,7 @@
 #app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {background:rgba(0, 0, 0, 0.65)}
 /* Emoji Stuff */
 .bgModal,#app-mount #bda-qem,.emojiPicker-3m1S-j,
-#bda-qem-twitch-container, #bda-qem-favourite-container {animation: sliding .5s}
+#bda-qem-twitch-container, #bda-qem-favourite-container {animation: sliding 400ms cubic-bezier(0.4, 0, 1, 1)}
 
 .popout-3sVMXz {margin-top:-20px;box-shadow:none}
 #app-mount #bda-qem button {color:#fff;border:none;box-shadow: none}
@@ -110,14 +110,14 @@
 
 #app-mount .emojiPicker-3m1S-j,#app-mount #bda-qem-twitch-container, 
 #app-mount #bda-qem-favourite-container,#app-mount #bda-qem {background-color: rgba(0, 0, 0, 0.2);box-shadow:0 0 5px var(--accent);border:none}
-#bda-qem {background: transparent;height: 20px}
+#app-mount #bda-qem {height: 20px;padding:0 !important}
 
 #app-mount .emojiPicker-3m1S-j .search-bar.search-bar-light {background-color:rgba(0, 0, 0, 0.0);border:none;box-shadow:none}
 #app-mount .search-bar.search-bar-light .search-bar-inner {background-color: rgba(0, 0, 0, 0.0);border: none;border-radius: 20px!important }
 .search-bar.search-bar-light input {color:#fff}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {filter:invert(100%)}
 
-#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {background: rgba(40, 40, 40, 0.9)}
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .emojiPicker-3m1S-j .category-2U57w6 {background: rgba(0, 0, 0, 0.5);text-align:center;font-size:1em;color:#fff;line-height:20px}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: var(--accent)}
 
 #app-mount .reaction-1ELvT8 {background:transparent;box-shadow:0 0 5px var(--accent);border-radius:6px}
