@@ -30,6 +30,7 @@
 }
 
 /* Chat */
+.theme-dark .title-3qD0b-,.header-2o-2hj {box-shadow:none}
 .theme-dark .topic-2QX7LI{color:#fff}
 .newMessagesBar-mujexs,#app-mount .jumpToPresentBar-9P20AM {background:rgba(0, 0, 0, 0.7)}
 .newMessagesBar-mujexs:hover,#app-mount .jumpToPresentBar-9P20AM:hover {background:rgba(24, 24, 24, 0.9)}
@@ -105,7 +106,7 @@
 .bgModal,#app-mount #bda-qem,.emojiPicker-3m1S-j,
 #bda-qem-twitch-container, #bda-qem-favourite-container {animation: sliding .5s}
 
-.popout-3sVMXz {margin-top:-20px}
+.popout-3sVMXz {margin-top:-20px;box-shadow:none}
 #app-mount #bda-qem button {color:#fff;border:none;box-shadow: none}
 #app-mount #bda-qem button:hover,
 #app-mount #bda-qem button.active {background-color: var(--accent);opacity:.9;border:none;color:#fff}
