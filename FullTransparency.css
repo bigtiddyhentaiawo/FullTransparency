@@ -40,6 +40,8 @@
 #app-mount .wrapper-6URcxg .authBox-hW6HRx .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: rgba(0, 0, 0, 0.5);box-shadow:0 0 5px var(--accent);border-radius:6px
 }
+/* Crash */
+.themeDark-3Ap_7i {background:none;color: #fff}
 /* Chat */
 .theme-dark .title-3qD0b-,.header-2o-2hj,.theme-dark .headerBar-UHpsPw,.searchBar-6Kv8R2 {box-shadow:none}
 .theme-dark .topic-2QX7LI{color:#fff}
