@@ -28,7 +28,18 @@
 #app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw {
     background: transparent
 }
-
+/* Login */
+#app-mount .wrapper-3Q5DdO,
+.platform-win .splashBackground-1FRCko:before {background: none}
+#app-mount .input-cIJ7To {border-color: var(--accent)}
+.image-2jyRAK.loaded-3PtF_J {opacity:0}
+#app-mount .wrapper-6URcxg .authBox-hW6HRx {
+    background: rgba(0, 0, 0, 0.5);border-radius: 6px;
+    box-shadow: 0 0 10px var(--accent);color: #fff;padding: 20px
+}
+#app-mount .wrapper-6URcxg .authBox-hW6HRx .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: rgba(0, 0, 0, 0.5);box-shadow:0 0 5px var(--accent);border-radius:6px
+}
 /* Chat */
 .theme-dark .title-3qD0b-,.header-2o-2hj,.theme-dark .headerBar-UHpsPw,.searchBar-6Kv8R2 {box-shadow:none}
 .theme-dark .topic-2QX7LI{color:#fff}
