@@ -95,6 +95,11 @@
 #app-mount .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq,.video-1kutKI {background:transparent}
 .backgroundBlur-dazcBE{background-image: none !important}
 .backgroundBlurOverlay-1JS5RF{background:transparent}
+.wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, 
+.wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r, .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV, 
+.wrapper-29NfPK.normal-2GSW0u .center-1Vp33r, .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
+    background-color: transparent;border:none
+}
 /*Blocked Msgs*/
 #app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf,#app-mount .messageGroupBlocked-3wrQQX,
 #app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {background: transparent}
@@ -126,7 +131,8 @@
 }
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: var(--accent)}
 
-#app-mount .reaction-1ELvT8 {background:transparent;box-shadow:0 0 5px var(--accent);border-radius:6px}
+#app-mount .reaction-1ELvT8 {background:rgba(0, 0, 0, 0.4);box-shadow:0 0 5px var(--accent);margin:3px;border-radius:6px}
+#app-mount .reaction-1ELvT8.reactionMe-23mbRf {background:rgba(0, 0, 0, 0.8);box-shadow:0 0 5px 2px var(--accent)}
 #app-mount .reactionCount-2ddRoS {color:#fff}
 #app-mount .sidebar-1-SQro,
 #app-mount .container-1If-HZ, 
@@ -322,10 +328,11 @@
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {background: var(--accent)}
 .theme-dark .grandfatheredMessage-1BnHtv,.theme-dark .container-2Zlzt0 {background: rgba(0, 0, 0, 0.3)}
 .theme-dark .tier1Banner-1B_WXY {background-color:rgba(47, 49, 54, 0.3)}
-.banner-3Kac2g{opacity:.5}
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover,
 .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b,.theme-dark .lookFilled-1h1y05.select-1Pkeg4 {border-color: var(--accent)}
 #app-mount .membershipDialogHouse3-15OBIQ {background-color:rgba(69, 221, 192, 0.5)}
+.banner-3Kac2g{opacity:.5}
+.divider-3kJiJM {display:none}
 /* Settings - Original snippet from zere*/ 
 :root {
 --w2: 65% ;
