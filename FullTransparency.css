@@ -240,6 +240,7 @@
 #app-mount .bubble-1gL_TN {background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 3px var(--accent)}
 .root-1bFE0x.whyYouMightLikeIt-2zZIIj {background:rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--accent);border-radius:6px}
 /* Popouts and others */
+.tooltip.tooltip-right:after {display:none}
 #app-mount .message-2qRu38 {background: rgba(0, 0, 0, 0.3);box-shadow:0 0 8px var(--accent);border-radius:6px}
 /*Mentions*/
 .messagesPopoutWrap-1MQ1bW {animation: toppopout .5s cubic-bezier(0.4, 0, 1, 1) }
