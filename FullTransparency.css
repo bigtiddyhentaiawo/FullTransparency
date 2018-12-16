@@ -43,6 +43,7 @@
 /* Crash */
 .themeDark-3Ap_7i {background:none;color: #fff}
 /* Chat */
+.noticeDanger-7u-yT9,.noticeInfo-3_iTE1 {background-color:rgba(0, 0, 0, 0.3);color:#ff0000;box-shadow:none}
 .theme-dark .title-3qD0b-,.header-2o-2hj,.theme-dark .headerBar-UHpsPw,.searchBar-6Kv8R2 {box-shadow:none}
 .theme-dark .topic-2QX7LI{color:#fff}
 .newMessagesBar-mujexs,#app-mount .jumpToPresentBar-9P20AM,.theme-dark .hasMore-3e72_v {background:rgba(0, 0, 0, 0.7)}
