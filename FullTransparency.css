@@ -1,5 +1,5 @@
 /* Brightness */
-.appMount-3VJmYg {background:var(--brightness)}
+.appMount-3VJmYg {background:var(--brightness);text-shadow:1px 1px 1px #000}
 #app-mount .layer-3QrUeG,.titleBar-AC4pGV::after {background: var(--bgLayer)}
 .titleBar-AC4pGV::after {content:""; position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px} /* Titlebar layer */
 .backdrop-1wrmKB {background:rgba(0, 0, 0, 0.1) !important}
