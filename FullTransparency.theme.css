@@ -1,4 +1,4 @@
-//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. - Please use the support server listed below if you need any help.","author":"Satoru","version":"0.5","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. - Please use the support server listed below if you need any help.","author":"Satoru","version":"0.7","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css');
 @import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
@@ -12,8 +12,9 @@
     --settings: rgba(0, 0, 0, 0.7) ;        /* Settings Transparency */
     --round: 50%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
 
-    --accent: rgba(0, 255, 215, 0.5) ;
-    --unread: rgba(0, 255, 215, 0.5) ;
+    --accent: rgba(0, 255, 215, 0.5) ;		/* Main theme accent colours */
+    --gSelect:5px 2px rgba(255, 165, 0, 0.5);	/* Currently selected guild colour. 5px 2px Default */ 
+    --unread: rgba(0, 255, 215, 0.5) ;		/* Unread messages colour */
 	--sb: 	  rgba(0, 255, 215, 0.2) ;		/* Scrollbars. */
 
     --font: sans-serif;
