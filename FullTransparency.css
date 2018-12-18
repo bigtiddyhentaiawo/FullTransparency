@@ -43,6 +43,10 @@
 /* Crash */
 .themeDark-3Ap_7i {background:none;color: #fff}
 /* Chat */
+.theme-dark .base-34jWEe {
+    background-image: none;border-color: transparent;
+    height:50px;padding-bottom: 10px;text-align:center}
+.base-34jWEe h1 {color:rgba(255, 255, 255, 0.9);font-size:1.2em}
 .noticeDanger-7u-yT9,.noticeInfo-3_iTE1 {background-color:rgba(0, 0, 0, 0.3);color:#ff0000;box-shadow:none}
 .theme-dark .title-3qD0b-,.header-2o-2hj,.theme-dark .headerBar-UHpsPw,.searchBar-6Kv8R2 {box-shadow:none}
 .theme-dark .topic-2QX7LI{color:#fff}
