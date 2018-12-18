@@ -426,6 +426,9 @@
 @keyframes context-menu	{from{opacity:0;transform:scale(0.3) translate3d(0,0,0)} to{opacity:1;transform:scale(1) translate3d(0,0,0)}}
 @keyframes menu-open	{0% {transform: scale(1, 0.8)}}
 @keyframes popin	{from{opacity:0;transform:scale(0.3) translate3d(0,0,0)} to{opacity:1;transform:scale(1) translate3d(0,0,0)}}
+@keyframes slide-tl {
+  0% {transform: translateZ(50px) translateY(50px) translateX(50px);opacity:.1}
+  100% {transform: translateZ(0) translateY(0) translateX(0);opacity:1}}
 
 /* Plugin/Other Support */
 .bgModal {box-shadow:0 0 5px var(--accent)}
@@ -449,6 +452,7 @@
 #app-mount .dst-tooltip{background:rgba(0, 0, 0, 0.8) !important;box-shadow:0 0 5px var(--accent)}
 
 .theme-dark .themedPopout-25DgLi:not(.messagesPopoutWrap-1MQ1bW) {
+    animation: slide-tl .3s cubic-bezier(0.4, 0, 1, 1);
     background-color: rgba(0, 0, 0, 0.6);border: none;box-shadow: 0 0 5px var(--accent)
 }
 .theme-dark .select-2TCrqx .Select-control,
