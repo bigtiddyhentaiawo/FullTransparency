@@ -119,6 +119,8 @@ class fullTrans {
                 $("#app-mount").removeAttr('style');
                 $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3VJmYg").removeAttr('style');
                 $("#imgUrl").val('');
+                $("#ftSlider").val('75');
+				$("#opSlider").val('0');
             });
 
             $("#recTab").on('click', function() {
