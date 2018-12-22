@@ -182,7 +182,7 @@
 #app-mount .guildSeparator-1X4GQ1:after {background:transparent}
 .unreadBar-3YD_k9 {box-shadow: 0 0 1px var(--accent)}
 .unread-1xRYoj,.unread-1xRYoj:hover {background-color: rgba(0, 0, 0, 0.9)}
-.wrapper-232cHJ {background-color: var(--unread);}
+html .tabBadge-3smxHS,.wrapper-232cHJ {background-color: var(--unread);}
 #app-mount .guild-1EfMGQ.audio-3vVhBi:after, #app-mount .guild-1EfMGQ.video-15yGu3:after {background-color:rgba(0, 0, 0, 0.5)}
 .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: #ccc}
 
@@ -196,6 +196,8 @@
     border-color: #fff;color: #fff}
 #app-mount .wrapper-2ZbzR9{background:transparent;box-shadow:0 0 5px var(--accent)}
 /* Friends section*/
+#app-mount #friends .friends-table .friends-table-header {text-align:center;border:none}
+.theme-dark #friends .friends-table .friends-table-header .friends-column-separator{display:none}
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected,
 .theme-dark #friends .tab-bar .tab-bar-item.selected {
     background-color: rgba(0, 0, 0, 0.5);color: #fff;box-shadow:0 0 5px var(--accent)
@@ -235,8 +237,8 @@
 #app-mount .dockItem-2kQDqg:hover {background-color: rgba(0, 0, 0, 0.4);border:1px solid var(--accent)}
 
 /* Library */
-#app-mount .gamePreview-9weYR2 {background: rgba(0, 0, 0, 0.3)}
-#app-mount .body-1SVoBw {background:transparent}
+#app-mount .gamePreview-9weYR2 {background: rgba(0, 0, 0, 0.8)}
+#app-mount .body-1SVoBw,.theme-dark .gameUpdates-2GPqBU {background:rgba(0, 0, 0, 0)}
 #app-mount .gamePreview-9weYR2{border:1px solid var(--accent)}
 #app-mount .rowBackground-3MeNoN {filter: grayscale(0%);mask: none;}
 #app-mount .rowWrapperActive-2L7i9f{box-shadow: 0 0 5px var(--accent);background:transparent}
@@ -267,13 +269,14 @@
 #app-mount .itemBackground-1jfD8p:before {background: radial-gradient(ellipse at top,transparent,rgba(0, 0, 0, 0.6)),linear-gradient(90deg,rgba(0, 0, 0, 0.6) 0,transparent 40%,transparent 60%,rgba(0, 0, 0, 0.6)),linear-gradient(0deg,rgba(0, 0, 0, 0.6) 0,transparent 25%)}
 #app-mount .bubble-1gL_TN {background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 3px var(--accent)}
 .root-1bFE0x.whyYouMightLikeIt-2zZIIj {background:rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--accent);border-radius:6px}
+.theme-dark .footer-3oZnEF {display:none}
 /* Popouts and others */
 .tooltip.tooltip-right:after {display:none}
 #app-mount .message-2qRu38 {background: rgba(0, 0, 0, 0.3);box-shadow:0 0 8px var(--accent);border-radius:6px}
 /*Mentions*/
 .messagesPopoutWrap-1MQ1bW,.modal-3HD5ck.popout-3Nppv9.sizeSmall-Sf4iOi {animation: toppopout .5s cubic-bezier(0.4, 0, 1, 1) }
 #app-mount .header-ykumBX,#app-mount .footer-1kmXd4 {background:rgba(0, 0, 0, 0.1)}
-#app-mount .messagesPopoutWrap-1MQ1bW {background: rgba(0, 0, 0, 0.5)}
+#app-mount .messagesPopoutWrap-1MQ1bW {background: rgba(0, 0, 0, 0.7)}
 .themedPopout-25DgLi .header-SsaQ8X .title-23FrqZ {text-align:center}
 #app-mount .messageGroupWrapper-o-Zw7G { background: rgba(0, 0, 0, 0.5);border:none;box-shadow:0 0 5px var(--accent)}
 #app-mount .guildName-1Bc3Ta {color:#fff}
