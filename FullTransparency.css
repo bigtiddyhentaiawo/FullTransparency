@@ -190,7 +190,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {background-color: var(--unread);}
 #app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background: var(--unread);border-radius: 8px}
 #app-mount .colorUnreadText-2t7XRb, #app-mount .colorUnreadVoice-137o4S {color: var(--unread);opacity:1}
 #app-mount .nameUnreadText-DfkrI4, #app-mount .nameUnreadVoice-EVo-wI {color: var(--unread)}
-#app-mount .unread-1Dp-OI {background-color: var(--unread) }
+#app-mount .unread-1Dp-OI {background-color: var(--unread);height:20px;top:11px }
 #app-mount .guildsAdd-21_IdK {
     background: rgba(0, 0, 0, 0);
     border-color: #fff;color: #fff}
