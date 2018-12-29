@@ -65,7 +65,7 @@
 #app-mount .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {visibility:hidden}
 
 #app-mount .selectorSelected-1_M1WV {background-color: rgba(0, 0, 0, 0.2);box-shadow:0 0 5px var(--accent);border-radius:6px}
-#app-mount .autocomplete-1vrmpx {animation:slide-up 350ms ease-in  ;background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 5px var(--accent)}
+#app-mount .autocomplete-1vrmpx {animation:fadein 350ms ease-in  ;background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 5px var(--accent)}
 #app-mount .inner-zqa7da {background-color: rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--accent)}
 #app-mount .textArea-2Spzkt {color:#fff}
 #app-mount .container-3ISnnM .header-1TOWci .searchBar-1MOL6S {background:rgba(90, 90, 90, 0.3)}
@@ -244,7 +244,8 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {background-color: var(--unread);}
 #app-mount .rowWrapperActive-2L7i9f{box-shadow: 0 0 5px var(--accent);background:transparent}
 .info-P9dFwH {background:rgb(0, 0, 0)}
 .gameLibrary-TTDw4Y .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background-color:transparent}
-
+.gameLibrary-TTDw4Y .topPill-30KHOu .itemSelected-1qLhcL {background-color:rgba(0, 0, 0, 0.2);box-shadow:0 0 4px var(--accent); color:#fff}
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL),.theme-dark .topPill-30KHOu .item-PXvHYJ:hover {background-color: rgba(0, 0, 0, 0.4)}
 /* Store */
 #app-mount .tagline-1VBVLz{color:#fff}
 .distributionApplicationsSort-2_uq5y {opacity:.8}
@@ -293,6 +294,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {background-color: var(--unread);}
 #app-mount .search-results-wrap .channel-separator .channel-name {background:transparent}
 #app-mount .option-96V44q:after {display:none}
 #app-mount .option-96V44q.selected-rZcOL- {background:transparent;box-shadow:0 0 5px var(--accent);border-radius:6px}
+#app-mount .search-results-wrap .action-buttons .jump-button {background-color: rgba(0, 0, 0, 0.75);color: hsla(0,0%,100%,.9)}
 
 #app-mount .search-results-wrap {background:transparent}
 .search-results-wrap .search-header,
@@ -464,6 +466,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {background-color: var(--unread);}
 @keyframes slide-tl {
   0% {transform: translateZ(50px) translateY(50px) translateX(50px);opacity:.1}
   100% {transform: translateZ(0) translateY(0) translateX(0);opacity:1}}
+@keyframes fadein {0% {transform: translateY(50px);opacity: 0}100% {transform: translateY(0);opacity: 1}}
 
 /* Plugin/Other Support */
 .bgModal {box-shadow:0 0 5px var(--accent)}
@@ -488,8 +491,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {background-color: var(--unread);}
 
 #app-mount .themedPopout-25DgLi:not(.messagesPopoutWrap-1MQ1bW) {
     animation: slide-tl .3s cubic-bezier(0.4, 0, 1, 1);
-    background-color: rgba(0, 0, 0, 0.6);border: none;box-shadow: 0 0 5px var(--accent)
-}
+    background-color: rgba(0, 0, 0, 0.75);border: none;box-shadow: 0 0 5px var(--accent)}
 #app-mount .select-2TCrqx .Select-control,
 #app-mount .select-2TCrqx .Select-control:hover {border: 1px solid var(--accent)}
 #app-mount .select-2TCrqx .Select-option.is-focused, 
