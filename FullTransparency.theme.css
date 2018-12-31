@@ -1,4 +1,4 @@
-//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord. User settings for customization. - Please use the support server listed below if you need any help.","author":"Satoru","version":"0.7","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme made specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl+r does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"0.9","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css');
 @import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
@@ -8,14 +8,14 @@
 :root {
 
     --brightness: rgba(0, 0, 0, 0.75) ;    /* Main theme brightness / background colour */
-    --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Keep at 0. Adjust the 4th number(alpha) if using a light wallaper. */ 
-    --settings: rgba(0, 0, 0, 0.7) ;        /* Settings Transparency */
-    --round: 50%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
+    --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Normally keep at 0. Adjust the 4th number(alpha) for wallpaper brightness. */ 
+    --settings: rgba(0, 0, 0, 0.6) ;        /* Settings Transparency */
+    --round: 30%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
 
-    --accent: rgba(0, 255, 215, 0.5) ;		/* Main theme accent colours */
-    --gSelect:5px 2px rgba(255, 165, 0, 0.5);	/* Currently selected guild colour. 5px 2px Default */ 
-    --unread: rgba(0, 255, 215, 0.5) ;		/* Unread messages colour */
-	--sb: 	  rgba(0, 255, 215, 0.2) ;		/* Scrollbars. */
+    --accent: rgba(0, 192, 255, 0.7) ;		/* Main theme accent colours */
+    --gSelect:5px 2px rgba(255, 178, 0, 0.7);	/* Currently selected guild colour. 5px 2px Default */ 
+    --unread: rgba(0, 192, 255, 0.8) ;		/* Unread messages colour */
+	--sb: 	  rgba(0, 192, 255, 0.2) ;		/* Scrollbars. */
 
     --font: sans-serif;
     --fontsize: .9em;
@@ -23,6 +23,9 @@
 
     --profileradius: 0; /* 0 is normal squared edges. Up to 50px for rounded profiles. */
 	--color: #fff; 		/* PFP Name colour */
+
+	--w2: 65% ;		/* Settings width */
+	--h2: 80% ;		/* Settings height */
 
 	/* GlowStatus */
     --sglow: 5px 2px;	/* Blur/Thickness Default: 5px 2px */
