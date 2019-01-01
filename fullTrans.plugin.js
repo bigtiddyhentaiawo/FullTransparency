@@ -2,10 +2,10 @@
 
 /*@cc_on
 @if (@_jscript)
-	let shell = WScript.CreateObject("WScript.Shell"),
-		fs = new ActiveXObject("Scripting.FileSystemObject"),
-		pathPlugins = shell.ExpandEnvironmentStrings("%APPDATA%\\BetterDiscord\\plugins"),
-		pathSelf = WScript.ScriptFullName;
+	var shell = WScript.CreateObject("WScript.Shell");
+	var	fs = new ActiveXObject("Scripting.FileSystemObject");
+	var	pathPlugins = shell.ExpandEnvironmentStrings("%APPDATA%\\BetterDiscord\\plugins");
+	var	pathSelf = WScript.ScriptFullName;
 	shell.Popup("Self installer started.", 0, "Full Transparency for BetterDiscord", 0x30);
 	if (fs.GetParentFolderName(pathSelf) === fs.GetAbsolutePathName(pathPlugins)) {
 		shell.Popup("No need to install me twice.", 0, "I'm already installed", 0x40);
