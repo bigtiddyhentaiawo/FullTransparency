@@ -434,7 +434,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {
 #app-mount .header-2RyJ0Y,#app-mount #bd-settings-sidebar .ui-tab-bar-header {color:rgba(255, 255, 255, 0.9);text-align:center;font-size:.9em}
 #app-mount .faded-3bns_w {color:rgba(255, 255, 255, 0.9)}
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover, #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
-#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {background-color: rgba(0, 0, 0, 0.3);color: var(--accent)}
+#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {background-color: rgba(0, 0, 0, 0.4);color: var(--accent)}
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected:hover {color:rgb(255, 255, 255)}
 #app-mount #bd-settings-sidebar .ui-tab-bar-item,
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .item-PXvHYJ {line-height:10px}
@@ -445,7 +445,6 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {
 #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 #app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy {background: var(--settings);border-radius:6px;}
 #app-mount .standardSidebarView-3F1I7i {box-shadow: 0 0 5px var(--accent)}
-#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {background: var(--accent)}
 #app-mount .grandfatheredMessage-1BnHtv,#app-mount .container-2Zlzt0 {background: rgba(0, 0, 0, 0.3)}
 #app-mount .tier1Banner-1B_WXY {background-color:rgba(47, 49, 54, 0.3)}
 #app-mount .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,#app-mount .lookFilled-1h1y05.select-1Pkeg4:hover,
@@ -501,7 +500,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ {
   100% {transform: translateZ(0) translateY(0) translateX(0);opacity:1}}
 @keyframes fadein {0% {transform: translateY(50px);opacity: 0}100% {transform: translateY(0);opacity: 1}}
 
-    /* Copyright protection*/
+    /* Edited Devilbro Copyright protection*/
 html > head + body > div#app-mount.appMount-3VJmYg > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm path {
 	position: absolute !important;display:none;
 	margin: 0 !important;top: 0 !important;
@@ -525,10 +524,10 @@ html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div.app > 
 	position: relative !important;
 }
 html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div.app > div.layers-3iHuyZ.flex-vertical.flex-spacer > div.layer-3QrUeG + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > div.sidebar-CFHs9e > div.side-8zPYf6 > span#bd-settings-sidebar:after {
-	content: "Full Transparency" !important;
-	font-size: 12px !important; font-weight: 600 !important; 
+	content: "Full Transparency Base v0.9.2" !important;
+	font-size: 10px !important; font-weight: 600 !important; 
 	color: rgb(255, 255, 255) !important; display: inline !important;
-	opacity: .5 !important;padding: 2px 10px !important;margin: 0 !important;
+	opacity: .8 !important;padding: 2px 6px !important;margin: 0 !important;
 	cursor: default !important;visibility: visible !important;position: relative !important;
 	top: 0 !important;bottom: 0 !important;
 }
