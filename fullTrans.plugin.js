@@ -29,7 +29,7 @@ class fullTrans {
         return "QoL plugin for Full Transparency theme. Able to change backgrounds & transparency options easily. <br><br> *Must have BD 'Emote Menu' turned on for this plugin to work.*";
     }
     getVersion() {
-        return "1.0";
+        return "1.1";
     }
     getAuthor() {
         return "Satoru";
@@ -89,11 +89,11 @@ class fullTrans {
             });
 
             $('#ftSlider').on('input', function() {
-                $('.appMount-3VJmYg').css('background', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
+                $('.appMount-3VJmYg').css('background-color', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
             });
 			
             $('#opSlider').on('input', function() {
-                $('.layer-3QrUeG,.titleBar-AC4pGV').css('background', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
+                $('.layer-3QrUeG,.titleBar-AC4pGV').css('background-color', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
             });
 
 
