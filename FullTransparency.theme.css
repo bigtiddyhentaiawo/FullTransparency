@@ -4,9 +4,7 @@
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css'); /* Main theme, do not touch. */
 @import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');		/* Addons start here. If you dont like an addon, remove the import */
 @import url('https://satoru8.github.io/FullSizePfp/FullSizePfp.css');
-@import url('https://satoru8.github.io/Addons/FriendsList.css');
 @import url('https://satoru8.github.io/Addons/GlowStatus.css');
-@import url('https://satoru8.github.io/Addons/Library.css');
 
 
 /* User Settings */
@@ -35,14 +33,6 @@
 
 	--w2: 65% ;		/* Settings width */
 	--h2: 80% ;		/* Settings height */
-
-	/* Friends list */
-    --mc: var(--accent);		/*	Main Color	*/
-    --sc: var(--accent);		/*	Accent Color	*/  
-
-  	/* Library cards */
-    --bg1: rgba(0,0,0, .5);	/* Background transparency/colour */
-    --bc1:var(--accent);	/* Box-shadow  */
 
 	/* GlowStatus */
     --sglow: 5px 2px;	/* Blur/Thickness Default: 5px 2px */
