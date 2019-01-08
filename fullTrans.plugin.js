@@ -146,17 +146,18 @@ class fullTrans {
 
     get css() {
         let c = `
-		.bgBtn {color: #000;order:1;cursor: pointer;border-radius: 5px 0 0 0}
-		.bgBtn.active {background: #e2e2e2}
-		.bgModal, .bgContent {text-align: center;width: 346px;height: 327px;background:#fff;border-radius: 0 0 5px 5px}
+		#bda-qem .bgBtn {background:rgba(0, 0, 0, 0.4);color: #00b7ff;border:none;box-shadow:none;order:1;cursor: pointer;border-radius: 5px 0 0 0}
+		#bda-qem .bgBtn.active,#bda-qem .bgBtn:hover {background: rgba(0, 0, 0, 0.4);border-radius:5px 0 0 0}
+		#bda-qem-twitch {border-radius:0}
+		.bgModal, .bgContent {text-align: center;width: 346px;height: 327px;background:rgba(0, 0, 0, 0.4);color:#fff;border-radius: 0 0 5px 5px}
 		.bgModal.active, .bgContent.active {display: block}
 		.bgHead, .bgBody {padding: 5px}
-		.bgHead {border-bottom:1px solid #d2d2d2}
+		.bgHead {border-bottom:1px solid #00b7ff}
 		.bgBody {margin-top:10px;padding-bottom:20px}
-		.bgTitle {font-size: 1.2em}
+		.bgTitle {font-size: 1.2em;color:#00b7ff}
 		.input1 {padding-top:10px;padding-bottom:10px}
-		.imgUrl {padding:5px;margin:0 0 5px 0;border:none;box-shadow:0 0 5px 0 #000;border-radius:20px}
-		#app-mount .imgUrl::-webkit-input-placeholder {color:#000;text-align:center}
+		.imgUrl {color:#fff;padding:5px;margin:0 0 5px 0;border:none;background:transparent;box-shadow:0 0 5px 0 #00b7ff;border-radius:20px}
+		#app-mount .imgUrl::-webkit-input-placeholder {color:#fff;text-align:center}
 		.update, .reset {color:rgba(255, 255, 255, 0.8);font-size:.95rem;position:relative;width:60px;height:30px;font-weight:bold;border-radius: 10px }
 		.update:active, .reset:active, .favBtn:active {transform: scale(.95)}
 		.update {left: -11px; background: rgba(0, 255, 38, 0.2)}
@@ -167,9 +168,9 @@ class fullTrans {
 		.opSlider,.ftSlider {
 			-webkit-appearance: none;width: 99%;height: 10px;
 			border-radius: 5px;background: #c9c9c9;
-			outline: none;opacity: 0.7;transition: opacity .2s;
+			outline: none;opacity: 0.4;transition: opacity .2s;
 		}
-		.opSlider:hover,.ftSlider:hover {opacity: 1}
+		.opSlider:hover,.ftSlider:hover {opacity: .8}
 		.opSlider::-webkit-slider-thumb,.ftSlider::-webkit-slider-thumb {
 			-webkit-appearance: none;appearance: none;
 			width: 20px;height: 20px;border-radius: 50%; 
