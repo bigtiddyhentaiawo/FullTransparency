@@ -9,7 +9,7 @@
 .appMount-3VJmYg::before {
 	filter:blur(var(--bgBlur));opacity:var(--bgOpacity);position:absolute;width:100vw;height:100vh;content:""
 }
-#app-mount .layer-3QrUeG,.titleBar-AC4pGV::after {background: var(--bgLayer)}
+#app-mount .layer-3QrUeG,.titleBar-AC4pGV {background: var(--bgLayer)}
 .wordmark-2iDDfm{display:none}
 .titleBar-AC4pGV::after {position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px} /* Titlebar layer */
 .backdrop-1wrmKB {background:rgba(0, 0, 0, 0.1) !important}
