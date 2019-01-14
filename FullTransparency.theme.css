@@ -12,10 +12,10 @@
 :root {
 
     --brightness: rgba(0, 0, 0, 0.75) ;    /* Main theme brightness / background colour */
-    --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Normally keep at 0. Adjust the 4th number(alpha) for wallpaper brightness. */ 
+    --bgLayer: rgba(0, 0, 0, 0.0) ;          /* Adds a layer for use with wallpapers. Adjust the 4th number(alpha) for brightness. 1 = black, 0 = transparent */ 
     
     --bgBlur: 0px;							/* Optional blur effect for secondary wallpaper. */
-	--bgOpacity:0.4;							/* Opacity on the secondary wallpaper. */
+	--bgOpacity:0.6;							/* Opacity on the secondary wallpaper. */
 
     --settings: rgba(0, 0, 0, 0.6) ;        /* Settings Transparency */
 
@@ -45,8 +45,9 @@
     --dnd: #f04747;
     --invis: #1a36fa;
 }
+
 /* Main wallpaper. */
-.appMount-3VJmYg {background-image: url('') ;background-size:100%;background-position:center;background-repeat:no-repeat}
+#app-mount {background: url('') center/cover no-repeat}
 
  /* Optional secondary wallpaper. For use with opacity setting. */
-.appMount-3VJmYg::before {background-image: url('') ;background-size:100%;background-position:center;background-repeat:no-repeat}
+#app-mount::before {background: url('') center/cover no-repeat}

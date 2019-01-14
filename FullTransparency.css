@@ -5,8 +5,8 @@
     --bc1:var(--accent);	/* Box-shadow  */
 }
 /* Brightness */
-.appMount-3VJmYg {background-color:var(--brightness);text-shadow:1px 1px 1px #000}
-.appMount-3VJmYg::before {
+#app-mount {background-color:var(--brightness);text-shadow:1px 1px 1px #000}
+#app-mount::before {
 	filter:blur(var(--bgBlur));opacity:var(--bgOpacity);position:absolute;width:100vw;height:100vh;content:""
 }
 #app-mount .layer-3QrUeG,.titleBar-AC4pGV {background: var(--bgLayer)}
@@ -23,7 +23,7 @@
 ::-webkit-input-placeholder, body, button, input, select, textarea:not([class*="hljs"]):not(code){font-family: var(--font) !important}
 #app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important}
 #app-mount ::-webkit-input-placeholder{color:rgba(255, 255, 255, 0.8)}
-.appMount-3VJmYg ::selection {background: rgba(0, 0, 0, 0.2);color: var(--accent)}
+#app-mount ::selection {background: rgba(0, 0, 0, 0.2);color: var(--accent)}
 
 /* Main Trans */
 #app-mount .layers-3iHuyZ, #app-mount .container-2lgZY8,#app-mount .typing-2GQL18,
