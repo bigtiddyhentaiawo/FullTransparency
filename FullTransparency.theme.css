@@ -47,7 +47,7 @@
 }
 
 /* Main wallpaper. */
-#app-mount {background: url('') center/cover no-repeat}
+#app-mount {background-image: url(''); background-position: center;background-size: cover;background-repeat: no-repeat}
 
  /* Optional secondary wallpaper. For use with opacity setting. */
-#app-mount::before {background: url('') center/cover no-repeat}
+#app-mount::before {background-image: url(''); background-position: center;background-size: cover;background-repeat: no-repeat}
