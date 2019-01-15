@@ -89,7 +89,7 @@ class fullTrans {
             });
 
             $('#ftSlider').on('input', function() {
-                $('.appMount-3VJmYg').css('background-color', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
+                $('.appMount-3lHmkl').css('background-color', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
             });
 			
             $('#opSlider').on('input', function() {
@@ -117,7 +117,7 @@ class fullTrans {
 
             $("#reset").on('click', function() {
                 $("#app-mount").removeAttr('style');
-                $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3VJmYg").removeAttr('style');
+                $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
                 $("#imgUrl").val('');
                 $("#ftSlider").val('75');
 				$("#opSlider").val('0');
@@ -220,7 +220,7 @@ class fullTrans {
 
     stop() {
         $("#bgModal, #bgBtn").remove();
-        $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3VJmYg").removeAttr('style');
+        $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
         BdApi.clearCSS(this.getName());
         console.log("[Full Transparency] has Stopped");
     }
