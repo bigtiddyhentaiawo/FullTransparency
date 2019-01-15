@@ -105,7 +105,7 @@ class fullTrans {
             $("#update").on('click', function() {
                 let $rLink = $("#bgModal").find('#imgUrl').val();
                 $("#app-mount").attr('style', 'background: url("' + $rLink + '")' + 'center/cover no-repeat !important');
-                $(".app").attr('style', 'background: none !important');
+                $(".app-2rEoOp").attr('style', 'background: none !important');
 
             });
 
@@ -117,7 +117,7 @@ class fullTrans {
 
             $("#reset").on('click', function() {
                 $("#app-mount").removeAttr('style');
-                $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
+                $(".app-2rEoOp,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
                 $("#imgUrl").val('');
                 $("#ftSlider").val('75');
 				$("#opSlider").val('0');
@@ -220,7 +220,7 @@ class fullTrans {
 
     stop() {
         $("#bgModal, #bgBtn").remove();
-        $(".app,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
+        $(".app-2rEoOp,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
         BdApi.clearCSS(this.getName());
         console.log("[Full Transparency] has Stopped");
     }
