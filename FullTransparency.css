@@ -348,6 +348,7 @@ html .tabBadge-3smxHS,.wrapper-232cHJ,.tabBar-1E2ExX .badge-xFJoEU {
 #app-mount .jumpButton-3DTcS_ {background:rgba(0, 0, 0, 0.8);color:#fff}
 .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .closeButton-17RIVZ {opacity:1}
 /* Search */
+#app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root{color:#fff;opacity:.7}
 #app-mount .container-3ayLPN {background: rgba(0, 0, 0, 0.8);box-shadow:0 0 5px var(--accent);animation: toppopout .5s cubic-bezier(0.4, 0, 1, 1)}
 #app-mount .focused-2bY0OD {background:rgba(0, 0, 0, 0.2)}
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3,
