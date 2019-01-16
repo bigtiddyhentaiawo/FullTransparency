@@ -455,18 +455,6 @@ html .tabBadge-3smxHS,.wrapper-232cHJ,.tabBar-1E2ExX .badge-xFJoEU {
 .uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover .contents-18-Yxp {background-image:linear-gradient(0deg,transparent,transparent 1px,#f00 0,#f00 2px,transparent 0)}
 .uploadModal-2ifh8j .footer-3mqk7D .lookInverted-2D7oAl.colorBrand-3pXr91:hover {background-color:transparent;color:var(--accent)}
 .uploadModal-2ifh8j .footer-3mqk7D .lookInverted-2D7oAl.colorBrand-3pXr91{background:none}
-    /* Need Help */
-.need-help-modal.form.deprecated .header input[type=text]:focus {border:none}
-.need-help-modal.form.deprecated{animation:popin .4s cubic-bezier(0.4, 0, 1, 1);box-shadow: 0 0 5px var(--accent);border-radius:6px}
-.need-help-modal.form.deprecated .header {background-color: rgba(0, 0, 0, 0.75);height: 100px;padding: 0}
-.need-help-modal.form.deprecated .header input[type=text] {
-    background-color: rgba(0, 0, 0, 0.75);
-    box-shadow:0 0 5px var(--accent);
-    color: #fff;height: 20px;border:none
-}
-.form-deprecated .form-inner, .form.deprecated .form-inner,
-.need-help-modal.form.deprecated .footer{background:rgba(0, 0, 0, 0.75);border:none}
-
     /* Settings */
 #app-mount .description-3_Ncsb, #app-mount .labelDescriptor-1PqHgD{color:#ddd}
 .contentRegion-3nDuYy .card-FDVird:before {background-color: rgba(0, 0, 0, 0.4);border-color: var(--accent)}
