@@ -19,6 +19,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 }
 /* Brightness */
 #app-mount {background-color:var(--brightness);text-shadow:1px 1px 1px #000}
+#app-mount code{text-shadow:none}
 #app-mount::before {
 	filter:blur(var(--bgBlur));opacity:var(--bgOpacity);position:absolute;width:100vw;height:100vh;content:""
 }
