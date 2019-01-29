@@ -47,7 +47,8 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .title-3qD0b-,#app-mount .headerBar-UHpsPw,#app-mount .header-39GIC8,
 #app-mount .messagesWrapper-3lZDfY, #app-mount .container-3gCOGc,#app-mount .applicationStore-1pNvnv,
 #app-mount .gameLibrary-TTDw4Y,#app-mount .activityFeed-28jde9,#app-mount .markup-2BOw-j pre,
-#app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw {
+#app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw,
+#app-mount .tile-2OwFgW,#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     background: transparent
 }
 /* Login/Crash */
@@ -313,11 +314,18 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .gameLibrary-TTDw4Y .libraryHeader-3g95kE .topPill-30KHOu .itemSelected-1qLhcL {background-color:rgba(0, 0, 0, 0.2);box-shadow:0 0 4px var(--accent); color:#fff}
 #app-mount .gameLibrary-TTDw4Y .libraryHeader-3g95kE .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL),.libraryHeader-3g95kE .topPill-30KHOu .item-PXvHYJ:hover {background-color: rgba(0, 0, 0, 0.4)}
 /* Store */
+#app-mount .applicationStore-1pNvnv .carouselItem-1qFCGP{opacity:.7!important}
+#app-mount .applicationStore-1pNvnv .itemBackground-2vEldQ {background-color:transparent}
+#app-mount .applicationStore-1pNvnv .itemBackground-2vEldQ:before{background:none !important}
+#app-mount .applicationStore-1pNvnv .itemDescription-234GLf {background-color:#000000ad}
+#app-mount .applicationStore-1pNvnv .searchBox-3Y2Vi7 {background:rgba(0, 0, 0, 0.4);box-shadow:0 0 4px var(--accent)}
 #app-mount .applicationStore-1pNvnv .browseSearchInput-Jt8kg0 {background:rgba(0, 0, 0, 0.3)}
 #app-mount .applicationStore-1pNvnv .browseSearch-e9jF-f {box-shadow:0 0 4px 1px var(--accent);border-radius:4px}
 #app-mount .applicationStore-1pNvnv .container-3ayLPN .focused-1Yu0L3 {background-color:var(--accent)}
-#app-mount .applicationStore-1pNvnv .popout-2xBvMR {background-color: rgba(0, 0, 0, 0.9);box-shadow: 0 0 4px 1px var(--accent);color: #fff}
-#app-mount .applicationStore-1pNvnv  .applicationStore-1pNvnv .tagline-1VBVLz{color:#fff}
+#app-mount .applicationStore-1pNvnv .popout-2xBvMR,
+#app-mount .applicationStore-1pNvnv .card-NB61oR,
+#app-mount .applicationStore-1pNvnv .item-2yFVoY {background-color: rgba(0, 0, 0, 0.9);box-shadow: 0 0 4px 1px var(--accent);color: #fff}
+#app-mount .applicationStore-1pNvnv .applicationStore-1pNvnv .tagline-1VBVLz{color:#fff}
 #app-mount .applicationStore-1pNvnv .distributionApplicationsSort-2_uq5y {opacity:.8}
 #app-mount .applicationStore-1pNvnv .gameTitle-1GKhmx {text-align:center}
 #app-mount .applicationStore-1pNvnv .scroller-2FKFPG::-webkit-scrollbar-track {display:none}
@@ -342,6 +350,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .applicationStore-1pNvnv .root-1bFE0x.whyYouMightLikeIt-2zZIIj {background:rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--accent);border-radius:6px}
 #app-mount .applicationStore-1pNvnv .footer-3oZnEF {display:none}
 /* Popouts and others */
+#app-mount .colorPickerCustom-2CWBn2 {background-color:rgba(0, 0, 0, 0.8);box-shadow:0 0 3px 0 var(--accent)}
 #app-mount .modal-3HD5ck.container-14fypd .lookFilled-1Gx00P.colorBrand-3pXr91 {background-color: rgba(1, 160, 0, 0.7)}
 #app-mount .modal-3HD5ck.container-14fypd .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background-color: rgba(164, 0, 0, 0.5)}
 #app-mount .message-2qRu38 {background: rgba(0, 0, 0, 0.3);box-shadow:0 0 8px var(--accent);border-radius:6px}
@@ -361,6 +370,9 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .messagesPopoutWrap-1MQ1bW.jumpButton-3DTcS_ {background:rgba(0, 0, 0, 0.8);color:#fff}
 #app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .closeButton-17RIVZ {opacity:1}
 /* Search */
+#app-mount .calendarPicker-2yf6Ci .react-datepicker,.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {background:rgba(0, 0, 0, 0.8)}
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled, 
+#app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {}
 #app-mount .search-2oPWTC .searchBar-3dMhjb {width:30px;border-radius:50px}
 #app-mount .search-2oPWTC .searchBar-3dMhjb:hover {width:144px}
 #app-mount .search-2oPWTC .searchBar-3dMhjb:active {width:144px;transition: 150ms ease}
@@ -402,6 +414,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .row-rrHHJU.selected-1pIgLL {background: linear-gradient(90deg,var(--accent),#272727)}
 #app-mount .container-VSDcQc .header-2bNvm4 {box-shadow: 0 -1px 1px var(--accent)}
 /*large*/
+
 #app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,#app-mount .root-SR8cQa .topSectionNormal-2-vo2m,
 #app-mount .root-SR8cQa .body-3ND3kc,#app-mount .root-SR8cQa .topSectionSpotify-1lI0-P,
 #app-mount .root-SR8cQa .topSectionStreaming-1Tpf5X {
@@ -412,6 +425,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .root-SR8cQa .listRow-hutiT_:hover {
     background: transparent;box-shadow: 0 0 5px var(--accent);color: #fff
 }
+#app-mount .root-SR8cQa .note-QfFU8y textarea:focus {background:rgba(0, 0, 0, 0.7);box-shadow:0 0 3px var(--accent);color:#fff}
 #app-mount #autocomplete-popout section {background:rgba(0, 0, 0, 0.8);color:#fff}
 #app-mount #autocomplete-popout .autocomplete-header-background{background:rgba(0, 0, 0, 0.9)}
 #app-mount .root-SR8cQa .tabBarContainer-1s1u-z {
@@ -478,6 +492,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .uploadModal-2ifh8j .footer-3mqk7D .lookInverted-2D7oAl.colorBrand-3pXr91{background:none}
 #app-mount .uploadModal-2ifh8j .inner-3nWsbo {border: none}
     /* Settings */
+#app-mount .standardSidebarView-3F1I7i .elevationHigh-1PneE4 {background-color: rgba(0, 0, 0, 0.7) !important;box-shadow:0 0 4px var(--accent)}
 #app-mount .description-3_Ncsb, #app-mount .labelDescriptor-1PqHgD{color:#ddd}
 #app-mount .contentRegion-3nDuYy .card-FDVird:before {background-color: rgba(0, 0, 0, 0.4);border-color: var(--accent)}
 #app-mount .header-2RyJ0Y,#app-mount #bd-settings-sidebar .ui-tab-bar-header {color:rgba(255, 255, 255, 0.9);text-align:center;font-size:.9em}
