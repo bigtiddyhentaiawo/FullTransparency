@@ -1,4 +1,4 @@
-//META{"name":"Full Transparency","description":"A theme designed specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl + R does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.2.1","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme designed specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl + R does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.2.2","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css'); /* Main theme, do not touch. */
 
@@ -22,7 +22,7 @@ I suggest you take your time to review them all.
 
     --brightness: rgba(0, 0, 0, 0.8) ;		/* Main theme brightness / background colour */
     --bgLayer: rgba(0, 0, 0, 0.0) ;			/* Adds a layer for use with wallpapers. Adjust the 4th number(alpha) for brightness. 1 = black, 0 = transparent */ 
-    --settings: rgba(0, 0, 0, 0.7) ;		/* Settings menu transparency */
+    --settings: rgba(0, 0, 0, 0.8) ;		/* Settings menu transparency */
 
     --bgBlur: 0px;								/* Optional blur effect for secondary wallpaper. */
 	--bgOpacity:0.6;							/* Opacity on the secondary wallpaper. */

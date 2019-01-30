@@ -29,7 +29,7 @@ class fullTrans {
         return "QoL plugin for Full Transparency theme. Able to change backgrounds & transparency options easily. <br><br> *Must have BD 'Emote Menu' turned on for this plugin to work.*";
     }
     getVersion() {
-        return "1.1";
+        return "1.1.2";
     }
     getAuthor() {
         return "Satoru";
@@ -93,7 +93,7 @@ class fullTrans {
             });
 			
             $('#opSlider').on('input', function() {
-                $('.layer-3QrUeG,.titleBar-AC4pGV').css('background-color', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
+                $('.app-2rEoOp,.titleBar-AC4pGV').css('background-color', 'rgba(0,0,0,' + $(this).val() * '.01' + ')');
             });
 
 
@@ -117,7 +117,7 @@ class fullTrans {
 
             $("#reset").on('click', function() {
                 $("#app-mount").removeAttr('style');
-                $(".app-2rEoOp,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
+                $(".app-2rEoOp,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
                 $("#imgUrl").val('');
                 $("#ftSlider").val('75');
 				$("#opSlider").val('0');
@@ -220,7 +220,7 @@ class fullTrans {
 
     stop() {
         $("#bgModal, #bgBtn").remove();
-        $(".app-2rEoOp,.layer-3QrUeG,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
+        $(".app-2rEoOp,.titleBar-AC4pGV,.appMount-3lHmkl").removeAttr('style');
         BdApi.clearCSS(this.getName());
         console.log("[Full Transparency] has Stopped");
     }
