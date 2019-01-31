@@ -237,7 +237,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .colorUnreadText-2t7XRb, #app-mount .colorUnreadVoice-137o4S {color: var(--unread);opacity:1}
 #app-mount .nameUnreadText-DfkrI4, #app-mount .nameUnreadVoice-EVo-wI {color: var(--unread)}
 #app-mount .unread-1Dp-OI {background-color: var(--unread);height:20px;top:11px }
-#app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK {background: rgba(0, 0, 0, 0.4);border-color: #fff;color: #fff}
+#app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK {background: rgba(0, 0, 0, 0.4);border-color: #fff;color: #fff;border-radius:var(--round)}
 #app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK:hover {background: rgba(0, 0, 0, 0.7);border-color:var(--accent);color: var(--accent)}
 #app-mount .wrapper-2ZbzR9{background:transparent;box-shadow:0 0 5px var(--accent)}
 /* Friends section*/
