@@ -34,9 +34,9 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .membersWrap-2h-GB4 ::-webkit-scrollbar {width:6px}
 
 /* Fonts/Text */
-::-webkit-input-placeholder, body, button, input, select, textarea:not([class*="hljs"]):not(code){font-family: var(--font) !important}
+::placeholder, body, button, input, select, textarea:not([class*="hljs"]):not(code){font-family: var(--font) !important}
 #app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important}
-#app-mount ::-webkit-input-placeholder{color:rgba(255, 255, 255, 0.8)}
+#app-mount ::placeholder{color:rgba(255, 255, 255, 0.8)}
 #app-mount ::selection {background: var(--accent)}
 
 /* Main Trans */
@@ -579,7 +579,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 .bgHead {border-bottom:1px solid var(--accent)}
 .favBtn{background:transparent;color:#fff}
 .imgUrl {color:#fff;background:transparent;box-shadow:0 0 5px var(--accent)}
-#app-mount .imgUrl::-webkit-input-placeholder {color:#fff}
+#app-mount .imgUrl::placeholder {color:#fff}
 .bgContent .bgText {color:#fff}
 .bgTabs {background:rgba(0, 0, 0, 0.2)}
 .tabBtns {background:transparent}

@@ -157,7 +157,7 @@ class fullTrans {
 		.bgTitle {font-size: 1.2em;color:#00b7ff}
 		.input1 {padding-top:10px;padding-bottom:10px}
 		.imgUrl {color:#fff;padding:5px;margin:0 0 5px 0;border:none;background:transparent;box-shadow:0 0 5px 0 #00b7ff;border-radius:20px}
-		#app-mount .imgUrl::-webkit-input-placeholder {color:#fff;text-align:center}
+		#app-mount .imgUrl::placeholder {color:#fff;text-align:center}
 		.update, .reset {color:rgba(255, 255, 255, 0.8);font-size:.95rem;position:relative;width:60px;height:30px;font-weight:bold;border-radius: 10px }
 		.update:active, .reset:active, .favBtn:active {transform: scale(.95)}
 		.update {left: -11px; background: rgba(0, 255, 38, 0.2)}
