@@ -49,7 +49,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .gameLibrary-TTDw4Y,#app-mount .activityFeed-28jde9,#app-mount .markup-2BOw-j pre,
 #app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw,
 #app-mount .tile-2OwFgW,#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-    background: transparent;
+    background: transparent
 }
 /* Login/Crash */
 #app-mount .wrapper-3Q5DdO,
@@ -120,7 +120,8 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .membersGroup-v9BXpm,.nameCollapsed-34uFWo, .nameDefault-2DI02H,
 .wrapperMuted-3KeA2M,.nameHovered-1gxhWH,.nameHoveredCollapsed-2orEWB {text-align:center}
 #app-mount .members-1998pB {background: transparent}
-#app-mount .membersGroup-v9BXpm,#app-mount .activity-1IYsbk {color: rgba(255, 255, 255, 0.9)}
+#app-mount .membersGroup-v9BXpm,#app-mount .activity-1IYsbk,#app-mount .memberOnline-1CIh-0 {color: rgba(255, 255, 255, 0.9)}
+
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,.contentHoveredText-2D9B-x {
     background-color: rgba(0, 0, 0, 0.4);box-shadow:0 0 5px var(--accent); 
     border-radius: 4px;margin-right:3px
@@ -230,11 +231,11 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
     padding: 2px 4px;text-shadow: 0 1px 1px #000,1px 0 2px #000;color: var(--unread)}
 
 #app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.audio-3vVhBi:after, #app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.video-15yGu3:after {background-color:rgba(0, 0, 0, 0.5)}
-.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: #eee}
-.nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {color: #737373}
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: #fff}
+.nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ,.iconMuted-1HVBGH, .nameMuted-1MCOt4 {color: #a6a6a6}
 
 #app-mount .wrapper-2NJDcI {background-color: rgba(0, 0, 0, 0.51);color: #fff}
-#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background: var(--unread);border-radius: var(--round);}
+#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background: var(--unread);border-radius: var(--round)}
 #app-mount .colorUnreadText-2t7XRb, #app-mount .colorUnreadVoice-137o4S {color: var(--unread);opacity:1}
 #app-mount .nameUnreadText-DfkrI4, #app-mount .nameUnreadVoice-EVo-wI {color: var(--unread)}
 #app-mount .unread-1Dp-OI {background-color: var(--unread);height:20px;top:11px }
@@ -377,6 +378,8 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .search-2oPWTC .searchBar-3dMhjb {width:30px;border-radius:50px}
 #app-mount .search-2oPWTC .searchBar-3dMhjb:hover {width:144px}
 #app-mount .search-2oPWTC .searchBar-3dMhjb:active {width:144px;transition: 150ms ease}
+#app-mount .search-2oPWTC .searchBar-3dMhjb:focus {width:144px;transition: 150ms ease}
+
 #app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root{color:#fff;opacity:.7}
 #app-mount .container-3ayLPN {background: rgba(0, 0, 0, 0.8);box-shadow:0 0 5px var(--accent);animation: toppopout .5s cubic-bezier(0.4, 0, 1, 1)}
 #app-mount .focused-2bY0OD {background:rgba(0, 0, 0, 0.2)}
@@ -573,6 +576,10 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
     0% {opacity:0;filter:blur(4px);transform: scale(0.9)}
     100% {opacity:1;filter:blur(0);transform:scale(1)}
 }
+
+    /* Random Discord Stuff */
+#app-mount .mobileIndicator-3gyhuE,#app-mount .mobileIndicator-U-7hTl{color:#fff}
+#app-mount .activityIconForeground-3VIgI8 {fill:#fff}
     /* Plugin/Other Support */
 .bgModal {box-shadow:0 0 5px var(--accent)}
 .bgModal, .bgContent {background:rgba(0, 0, 0, 0.4);color:#fff}
