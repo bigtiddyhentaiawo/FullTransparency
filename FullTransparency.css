@@ -592,13 +592,9 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 .bd-sidebarView .bd-sidebarRegion {background:rgba(0, 0, 0, 0.85);box-shadow:0 0 4px var(--accent)}
 .bd-sidebar .bd-header,.bd-sidebar .bd-item {color:#fff}
 
-.bd-sidebar .bd-item:hover {
+.bd-sidebar .bd-item:hover,.bd-sidebar .bd-item.bd-active {
     background: transparent;color: var(--accent)
 }
-.bd-sidebar .bd-item.bd-active {
-    background: transparent;color: var
-}
-
 
 .bd-scrollerWrap .bd-scroller::-webkit-scrollbar {width:8px}
 .bd-scrollerWrap .bd-scroller::-webkit-scrollbar-thumb {background: var(--sb)}
