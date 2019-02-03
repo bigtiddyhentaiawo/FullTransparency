@@ -47,7 +47,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .title-3qD0b-,#app-mount .headerBar-UHpsPw,#app-mount .header-39GIC8,
 #app-mount .messagesWrapper-3lZDfY, #app-mount .container-3gCOGc,#app-mount .applicationStore-1pNvnv,
 #app-mount .gameLibrary-TTDw4Y,#app-mount .activityFeed-28jde9,#app-mount .markup-2BOw-j pre,
-#app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw,
+#app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw,
 #app-mount .tile-2OwFgW,#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     background: transparent
 }
@@ -76,6 +76,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .topic-2QX7LI{color:#fff}
 .iconInactive-g2AXfB {opacity:.8}
 .iconInactive-g2AXfB:hover {opacity:1}
+#app-mount .chat-3bRxxu .markup-2BOw-j code{background:#00000080}
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs,#app-mount .jumpToPresentBar-9P20AM {background:rgba(0, 0, 0, 0.7)}
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs:hover,#app-mount .jumpToPresentBar-9P20AM:hover,#app-mount .hasMore-3e72_v button:hover {background:var(--accent)}
 #app-mount .chat-3bRxxu .hasMore-3e72_v{background:rgba(0, 0, 0, 0);border:none}
@@ -376,12 +377,12 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled, 
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {}
 #app-mount .search-2oPWTC .searchBar-3dMhjb {width:30px;border-radius:50px}
-#app-mount .search-2oPWTC .searchBar-3dMhjb:hover {width:144px}
-#app-mount .search-2oPWTC .searchBar-3dMhjb:active {width:144px;transition: 150ms ease}
-#app-mount .search-2oPWTC .searchBar-3dMhjb:focus {width:144px;transition: 150ms ease}
+#app-mount .search-2oPWTC .searchBar-3dMhjb:hover {width:180px}
+#app-mount .search-2oPWTC .searchBar-3dMhjb:active {width:180px;transition: 150ms ease}
+#app-mount .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {width:180px;transition: 150ms ease}
 
 #app-mount .search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root{color:#fff;opacity:.7}
-#app-mount .container-3ayLPN {background: rgba(0, 0, 0, 0.8);box-shadow:0 0 5px var(--accent);animation: toppopout .5s cubic-bezier(0.4, 0, 1, 1)}
+#app-mount .container-3ayLPN {background: rgba(0, 0, 0, 0.8);position:relative;top:25px;box-shadow:0 0 5px var(--accent);animation: toppopout .5s cubic-bezier(0.4, 0, 1, 1)}
 #app-mount .focused-2bY0OD {background:rgba(0, 0, 0, 0.2)}
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3,
 #app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR,#app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB:before,
@@ -417,8 +418,8 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .autocompleteHeaderBackground-30T70q,#app-mount .container-VSDcQc .sectionTag-pXyto9 {background-color:rgba(0, 0, 0, 0.85)}
 #app-mount .row-rrHHJU.selected-1pIgLL {background: linear-gradient(90deg,var(--accent),#272727)}
 #app-mount .container-VSDcQc .header-2bNvm4 {box-shadow: 0 -1px 1px var(--accent)}
-/*large*/
 
+/*large*/
 #app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,#app-mount .root-SR8cQa .topSectionNormal-2-vo2m,
 #app-mount .root-SR8cQa .body-3ND3kc,#app-mount .root-SR8cQa .topSectionSpotify-1lI0-P,
 #app-mount .root-SR8cQa .topSectionStreaming-1Tpf5X {
@@ -433,8 +434,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount #autocomplete-popout section {background:rgba(0, 0, 0, 0.8);color:#fff}
 #app-mount #autocomplete-popout .autocomplete-header-background{background:rgba(0, 0, 0, 0.9)}
 #app-mount .root-SR8cQa .tabBarContainer-1s1u-z {
-    border:none;
-    padding-left: 20px;
+    border:none;padding-left: 20px
 }
 
 #app-mount .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91 {background:transparent}
@@ -576,7 +576,44 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
     0% {opacity:0;filter:blur(4px);transform: scale(0.9)}
     100% {opacity:1;filter:blur(0);transform:scale(1)}
 }
+    /* BDv2 */
+.bd-backdrop {opacity:.2}
+.bd-settingsButton {box-shadow:none}
+.bd-modal .bd-modalInner {background:#000000e6;box-shadow:0 0 2px var(--accent)}
+.bd-modalFooter .bd-footerAlert {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px 0 var(--accent);
+    padding: 10px 10px 10px 16px;
+}
+.bd-tooltip .bd-tooltipArrow, .bd-tooltip .bd-popoverArrow, 
+.bd-popover .bd-tooltipArrow, .bd-popover .bd-popoverArrow {display:none}
+.bd-tooltip, .bd-popover {background-color: #000c;box-shadow: 0 0 2px 0 var(--accent);color: #fff}
 
+.bd-sidebarView .bd-sidebarRegion {background:rgba(0, 0, 0, 0.85);box-shadow:0 0 4px var(--accent)}
+.bd-sidebar .bd-header,.bd-sidebar .bd-item {color:#fff}
+
+.bd-sidebar .bd-item:hover {
+    background: transparent;color: var(--accent)
+}
+.bd-sidebar .bd-item.bd-active {
+    background: transparent;color: var
+}
+
+
+.bd-scrollerWrap .bd-scroller::-webkit-scrollbar {width:8px}
+.bd-scrollerWrap .bd-scroller::-webkit-scrollbar-thumb {background: var(--sb)}
+.bd-scrollerWrap .bd-scroller::-webkit-scrollbar-track-piece {background:transparent}
+
+.bd-sidebarView .bd-contentRegion {background:rgba(0, 0, 0, 0.85);box-shadow:0 0 4px var(--accent)}
+.bd-card {border-color: var(--accent)}
+.bd-card span{color:#fff}
+.bd-card .bd-cardBody .bd-cardDescription,.bd-card .bd-cardBody .bd-cardFooter .bd-cardExtra {color:#fff}
+.bd-contentAuthor .bd-contentAuthorLink {color:#00dbff}
+.bd-contentAuthor .bd-contentAuthorLink:hover {color:#005fff}
+.bd-controls .bd-buttonGroup .bd-button {background: #3ecc9c99}
+.bd-controls .bd-buttonGroup .bd-button.bd-err {background: #d8404099}
+.bd-controls .bd-buttonGroup .bd-button:hover {background: #3ecc9ccc}
+.bd-controls .bd-buttonGroup .bd-button.bd-err:hover {background: #d84040cc}
     /* Random Discord Stuff */
 #app-mount .mobileIndicator-3gyhuE,#app-mount .mobileIndicator-U-7hTl{color:#fff}
 #app-mount .activityIconForeground-3VIgI8 {fill:#fff}
