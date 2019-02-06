@@ -220,7 +220,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .guildsWrapper-5TJh6A {background: transparent}
 #app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ:active {transform: scale(.95);transition: 50ms ease}
 #app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildIcon-CT-ZDq,#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildInner-3DSoA4 {border-radius:var(--round) !important}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0, 0, 0, 0) !important;}
+#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0, 0, 0, .3) !important;}
 #app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.selected-ML3OIq::before {
     background:transparent;border-radius: var(--round);box-shadow:0 0 var(--gSelect);
     height: 100%;width:100%;left: 0;top:20px}
