@@ -37,15 +37,15 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount ::selection {background: var(--accent)}
 
 /* Main Trans */
-#app-mount .layer-3QrUeG,#app-mount .layers-3iHuyZ, #app-mount .container-2lgZY8,#app-mount .typing-2GQL18,
-#app-mount .standardSidebarView-3F1I7i,#app-mount .sidebarRegion-VFTUkN,#app-mount .option-1l2vXE,
+#app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, #app-mount .container-2lgZY8, #app-mount .typing-2GQL18,
+#app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw,#app-mount .membersWrap-2h-GB4 .members-1998pB,
+#app-mount .messagesWrapper-3lZDfY, #app-mount .container-3gCOGc,#app-mount .applicationStore-1pNvnv,
+#app-mount .standardSidebarView-3F1I7i, #app-mount .sidebarRegion-VFTUkN, #app-mount .option-1l2vXE,
+#app-mount .gameLibrary-TTDw4Y, #app-mount .activityFeed-28jde9, #app-mount .markup-2BOw-j pre,
 #app-mount .channels-Ie2l6A, #app-mount .container-PNkimc, #app-mount .container-2Thooq,
 #app-mount .chat-3bRxxu, #app-mount .chat-3bRxxu form, #app-mount .content-yTz4x3,
-#app-mount .title-3qD0b-,#app-mount .headerBar-UHpsPw,#app-mount .header-39GIC8,
-#app-mount .messagesWrapper-3lZDfY, #app-mount .container-3gCOGc,#app-mount .applicationStore-1pNvnv,
-#app-mount .gameLibrary-TTDw4Y,#app-mount .activityFeed-28jde9,#app-mount .markup-2BOw-j pre,
-#app-mount .markup-2BOw-j code.inline,#app-mount .root-1BQpZw,#app-mount .membersWrap-2h-GB4 .members-1998pB,
-#app-mount .tile-2OwFgW,#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+#app-mount .title-3qD0b-, #app-mount .headerBar-UHpsPw,#app-mount .header-39GIC8,
+#app-mount .tile-2OwFgW, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     background: transparent
 }
 /* Login/Crash */
@@ -75,7 +75,6 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .topic-2QX7LI{color:#fff}
 .iconInactive-g2AXfB {opacity:.8}
 .iconInactive-g2AXfB:hover {opacity:1}
-
 
 #app-mount .chat-3bRxxu .base-34jWEe {
     background-image: none;border-color: transparent;
@@ -110,6 +109,12 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .hljs {color:rgba(255, 255, 255, 0.9)}
 .reactionBtn-2na4rd,.button-3Jq0g9{opacity:1}
 #app-mount .button-3AYNKb,#app-mount .emojiButtonNormal-TdumYh,.spriteNormal-1wvG5n {opacity:.8}
+
+/*Blocked Msgs*/
+#app-mount .messageGroupBlocked-3wrQQX,
+#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {background: transparent;color:var(--accent);border:none}
+#app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf {background: transparent;border:1px solid var(--accent)}
+#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {background:rgba(0, 0, 0, 0.4)}
 
 /* Members List */
 #app-mount .membersWrap-2h-GB4 .membersGroup-v9BXpm,
@@ -178,11 +183,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .wrapper-29NfPK .lookFilled-1Gx00P.colorRed-1TFJan:hover{background-color:rgba(255, 0, 0, 0.2)}
 #app-mount .quickSelectPopout-X1hvgV {background: rgba(0, 0, 0, 0.5)}
 #app-mount .quickSelectPopoutOption-opKBx9:hover .regionSelectName-c5qL8O {color:#fff}
-/*Blocked Msgs*/
-#app-mount .messageGroupBlocked-3wrQQX,
-#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {background: transparent;color:var(--accent);border:none}
-#app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf {background: transparent;border:1px solid var(--accent)}
-#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {background:rgba(0, 0, 0, 0.4)}
+
 /* Emoji Stuff */
 #app-mount .bgModal,#app-mount #bda-qem,#app-mount .emojiPicker-3m1S-j,
 #app-mount #bda-qem-twitch-container, #app-mount #bda-qem-favourite-container {animation: sliding 400ms cubic-bezier(0.4, 0, 1, 1)}
@@ -216,6 +217,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .sidebar-1-SQro,
 #app-mount .container-1If-HZ, 
 #app-mount .reactors-Blmlhw {background: transparent}
+
 /* Guilds*/
 #app-mount .guildsWrapper-5TJh6A {background: transparent}
 #app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ:active {transform: scale(.95);transition: 50ms ease}
@@ -253,6 +255,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK {background: rgba(0, 0, 0, 0.4);border-color: #fff;color: #fff;border-radius:var(--round)}
 #app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK:hover {background: rgba(0, 0, 0, 0.7);border-color:var(--accent);color: var(--accent)}
 #app-mount .wrapper-2ZbzR9{background:transparent;box-shadow:0 0 5px var(--accent)}
+
 /* Friends section*/
 #app-mount .container-3gCOGc .friendsEmpty-1KQXin {visibility:hidden}
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {background:none;border:none}
