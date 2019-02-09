@@ -102,7 +102,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .autocomplete-1vrmpx {animation:fadein 350ms ease-in  ;background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 5px var(--accent)}
 #app-mount .inner-zqa7da {background-color: rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--accent)}
 #app-mount .textArea-2Spzkt {color:#fff}
-#app-mount .container-3ISnnM .header-1TOWci .searchBar-1MOL6S {background:rgba(90, 90, 90, 0.3);}
+#app-mount .container-3ISnnM .header-1TOWci .searchBar-1MOL6S {background:#0000004d;border-radius:6px}
 #app-mount .content-ySCtCx .result-3w1ZcL:hover {box-shadow:0 0 5px 2px var(--accent)}
 .result-3w1ZcL:hover:after {display:none}
 
@@ -198,8 +198,8 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount #bda-qem {height: 20px;padding:0 !important}
 
 #app-mount .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG {background-color:rgba(0, 0, 0, 0.0);border:none;box-shadow:none}
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {background-color: rgba(0, 0, 0, 0.0);border: none;border-radius: 20px!important }
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG input {color:#fff}
+#app-mount .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {background-color: #0000004d;border: 1px solid var(--accent);border-radius: 6px!important }
+#app-mount .emojiPicker-3m1S-j .searchBar-2_Yu-C.searchBarLight-1NxoDG input {color:#fff}
 #app-mount .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {filter:invert(100%)}
 
 #app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
@@ -390,9 +390,12 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G { background: rgba(0, 0, 0, 0.5);border:none;box-shadow:0 0 5px var(--accent)}
 #app-mount .messagesPopoutWrap-1MQ1bW .guildName-1Bc3Ta {color:#fff}
 #app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {background-color: rgba(0, 0, 0, 0);box-shadow: none}
-#app-mount .messagesPopoutWrap-1MQ1bW .actionButtons-1sUUug {background-color: rgba(0, 0, 0, 0);box-shadow: none}
-#app-mount .messagesPopoutWrap-1MQ1bW.jumpButton-3DTcS_ {background:rgba(0, 0, 0, 0.8);color:#fff}
+#app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug {background-color: rgba(0, 0, 0, 0);box-shadow: none}
+#app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G .jumpButton-3DTcS_ {background:rgba(0, 0, 0, 0.3);color:#fff}
+#app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_:hover {box-shadow: 0 0 3px var(--accent)}
+#app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_:active {transform: scale(.95)}
 #app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .closeButton-17RIVZ {opacity:1}
+
 /* Search */
 #app-mount .calendarPicker-2yf6Ci .react-datepicker,.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {background:rgba(0, 0, 0, 0.8)}
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled, 
@@ -412,6 +415,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .option-96V44q:after {display:none}
 #app-mount .option-96V44q.selected-rZcOL- {background:transparent;box-shadow:0 0 5px var(--accent);border-radius:6px}
 #app-mount .searchResultsWrap-2DKFzt .actionButtons-14P9IC .jumpButton-Ia2hRJ {background-color: rgba(0, 0, 0, 0.75);color: rgba(255, 255, 255, 0.9)}
+#app-mount .searchResultsWrap-2DKFzt .actionButtons-14P9IC .jumpButton-Ia2hRJ:hover {box-shadow: 0 0 3px var(--accent)}
 
 #app-mount .searchResultsWrap-2DKFzt {background:transparent}
 #app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR,
