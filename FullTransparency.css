@@ -24,9 +24,10 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 #app-mount .wordmark-2iDDfm{display:none}
 #app-mount .titleBar-AC4pGV::after {position:absolute;z-index:-1;top:0;left:0;right:0;width:100%;height:22px;} /* Titlebar layer */
 #app-mount .backdrop-1wrmKB {background:rgba(0, 0, 0, 0.1) !important}
+body{backface-visibility:hidden}
 
 /* Scrollbars */
-#app-mount ::-webkit-scrollbar,#app-mount ::-webkit-scrollbar-track-piece {visibility:hidden;width:8px}
+#app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece {visibility:hidden;width:8px}
 #app-mount ::-webkit-scrollbar-thumb {border:none!important; background: var(--sb)}
 #app-mount .membersWrap-2h-GB4 ::-webkit-scrollbar {width:6px}
 
@@ -601,6 +602,11 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
     0% {opacity:0;filter:blur(4px);transform: scale(0.9)}
     100% {opacity:1;filter:blur(0);transform:scale(1)}
 }
+
+    /* Extras */
+#app-mount .chat-3bRxxu .username-_4ZSMR[style*="0, 0, 1"] {color: #fff !important}
+#app-mount .membersWrap-2h-GB4 .nameTag-3p0yK-[style*="0, 0, 1"] {color: #fff !important}
+
     /* BDv2 */
 .bd-backdrop {opacity:.2}
 .bd-settingsButton {box-shadow:none}
