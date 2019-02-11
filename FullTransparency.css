@@ -33,7 +33,7 @@ body{backface-visibility:hidden}
 
 /* Fonts/Text */
 ::placeholder, body, button, input, select, textarea:not([class*="hljs"]):not(code){font-family: var(--font) !important}
-#app-mount .markup-2BOw-j:not(code) {color:var(--textcolor);font-size: var(--fontsize) !important}
+#app-mount .markup-2BOw-j:not(code) {color: var(--textcolor);font-size: var(--fontsize) !important;}
 #app-mount ::placeholder{color:rgba(255, 255, 255, 0.8)}
 #app-mount ::selection {background: var(--accent)}
 
@@ -105,7 +105,10 @@ body{backface-visibility:hidden}
 #app-mount .textArea-2Spzkt {color:#fff}
 #app-mount .container-3ISnnM .header-1TOWci .searchBar-1MOL6S {background:#0000004d;border-radius:6px}
 #app-mount .content-ySCtCx .result-3w1ZcL:hover {box-shadow:0 0 5px 2px var(--accent)}
-.result-3w1ZcL:hover:after {display:none}
+#app-mount .chat-3bRxxu .result-3w1ZcL:hover:after {display:none}
+
+#app-mount .chat-3bRxxu .attachment-33OFj0 {background-color: rgba(0, 0, 0, 0.3);border-color: rgba(0, 0, 0, 0.6)}
+#app-mount .chat-3bRxxu .metadata-3WGS0M {color: #dedede}
 
 #app-mount .hljs {color:rgba(255, 255, 255, 0.9)}
 .reactionBtn-2na4rd,.button-3Jq0g9{opacity:1}
@@ -398,7 +401,7 @@ body{backface-visibility:hidden}
 #app-mount .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .closeButton-17RIVZ {opacity:1}
 
 /* Search */
-#app-mount .calendarPicker-2yf6Ci .react-datepicker,.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {background:rgba(0, 0, 0, 0.8)}
+#app-mount .calendarPicker-2yf6Ci .react-datepicker,#app-mount .calendarPicker-2yf6Ci .react-datepicker__header {background:rgba(0, 0, 0, 0.8)}
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--disabled, 
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {}
 #app-mount .search-2oPWTC .searchBar-3dMhjb {width:30px;border-radius:50px}
@@ -449,7 +452,7 @@ body{backface-visibility:hidden}
 #app-mount .root-SR8cQa .topSectionPlaying-1J5E4n,#app-mount .root-SR8cQa .topSectionNormal-2-vo2m,
 #app-mount .root-SR8cQa .body-3ND3kc,#app-mount .root-SR8cQa .topSectionSpotify-1lI0-P,
 #app-mount .root-SR8cQa .topSectionStreaming-1Tpf5X {
-    background: rgba(0, 0, 0, 0.7)
+    background: rgba(0, 0, 0, 0.8)
 }
 #app-mount .root-SR8cQa {box-shadow: 0 0 5px var(--accent)}
 #app-mount .root-SR8cQa .connectedAccount-36nQx7 {border:none; box-shadow:0 0 5px var(--accent); border-radius: 6px }
@@ -461,6 +464,12 @@ body{backface-visibility:hidden}
 #app-mount #autocomplete-popout .autocomplete-header-background{background:rgba(0, 0, 0, 0.9)}
 #app-mount .root-SR8cQa .tabBarContainer-1s1u-z {
     border:none;padding-left: 20px
+}
+#app-mount .activityProfile-2bJRaP .content-3JfFJh, #app-mount .activityProfile-2bJRaP .details-38sfDr, 
+#app-mount .activityProfile-2bJRaP .name-29ETJS, #app-mount .activityUserPopout-2yItg2 .content-3JfFJh, 
+#app-mount .activityUserPopout-2yItg2 .details-38sfDr, #app-mount .activityUserPopout-2yItg2 .name-29ETJS,
+#app-mount .root-SR8cQa .header-QKLPzZ .joinedAtDate, #app-mount .root-SR8cQa .header-QKLPzZ .creationDate {
+    color: #ffffffe6
 }
 
 #app-mount .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91 {background:transparent}
@@ -522,13 +531,16 @@ body{backface-visibility:hidden}
 #app-mount .uploadModal-2ifh8j .footer-3mqk7D .lookInverted-2D7oAl.colorBrand-3pXr91{background:none}
 #app-mount .uploadModal-2ifh8j .inner-3nWsbo {border: none}
     /* Settings */
+#app-mount .standardSidebarView-3F1I7i .itemDefault-3Jdr52, 
+#app-mount .standardSidebarView-3F1I7i #bd-settings-sidebar .ui-tab-bar-item, 
+#app-mount .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {color:#ffffffe6}
 #app-mount .standardSidebarView-3F1I7i .elevationHigh-1PneE4 {background-color: rgba(0, 0, 0, 0.7) !important;box-shadow:0 0 4px var(--accent)}
 #app-mount .description-3_Ncsb, #app-mount .labelDescriptor-1PqHgD{color:#ddd}
 #app-mount .contentRegion-3nDuYy .card-FDVird:before {background-color: rgba(0, 0, 0, 0.4);border-color: var(--accent)}
 #app-mount .header-2RyJ0Y,#app-mount #bd-settings-sidebar .ui-tab-bar-header {color:rgba(255, 255, 255, 0.9);text-align:center;font-size:.9em}
 #app-mount .faded-3bns_w {color:rgba(255, 255, 255, 0.9)}
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover, #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
-#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {background-color: rgba(0, 0, 0, 0.4);color: var(--accent)}
+#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,.side-8zPYf6 .itemSelected-1qLhcL {background-color: rgba(0, 0, 0, 0.4);color: var(--accent);}
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected:hover {color:rgb(255, 255, 255)}
 #app-mount #bd-settings-sidebar .ui-tab-bar-item,
 #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .item-PXvHYJ {line-height:10px}
@@ -544,9 +556,9 @@ body{backface-visibility:hidden}
 #app-mount .lookFilled-1h1y05.selectOpen-hQuR6b,#app-mount .lookFilled-1h1y05.select-1Pkeg4 {border-color: var(--accent)}
 #app-mount .membershipDialogHouse3-15OBIQ {background-color:rgba(69, 221, 192, 0.5)}
 #app-mount .payment-info .description-3_Ncsb, #app-mount .paymentSourceRow-3FbcL_ .subText-V8PTt8, 
-#app-mount .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {transition: all 1s cubic-bezier(0.550, 0.085, 0.680, 0.530);filter: blur(8px);opacity:0}
+#app-mount .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {transition: all .5s cubic-bezier(0.550, 0.085, 0.680, 0.530);filter: blur(8px);opacity:0}
 #app-mount .payment-info .description-3_Ncsb:hover, #app-mount .paymentSourceRow-3FbcL_ .subText-V8PTt8:hover, 
-#app-mount .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {transition: all .5s cubic-bezier(0.550, 0.085, 0.680, 0.530);filter: none;opacity:1}
+#app-mount .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {transition: all .3s cubic-bezier(0.550, 0.085, 0.680, 0.530);filter: none;opacity:1}
 #app-mount .banner-3Kac2g{opacity:.5}
 #app-mount .divider-3kJiJM {display:none}
     /* Settings - Original snippet from zere*/
@@ -568,7 +580,7 @@ body{backface-visibility:hidden}
 .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT,
  .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {padding: 20px}
 #app-mount .cardPrimary-1Hv-to,#app-mount .cardPrimaryEditable-3KtE4g {
-    background: transparent;border-color: var(--accent) !important
+    background: rgba(0, 0, 0, 0.2);border-color: var(--accent) !important
 }
 .userInfoEditing-1CEzdT .lookLink-9FtZy-.colorPrimary-3b3xI6:hover {color:red}
 .userInfoEditing-1CEzdT .lookFilled-1Gx00P.colorGreen-29iAKY {background:transparent}
