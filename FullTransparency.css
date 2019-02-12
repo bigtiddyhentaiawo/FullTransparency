@@ -96,8 +96,9 @@ body{backface-visibility:hidden}
 #app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after,
 #app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before,
 #app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
-#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
-#app-mount .chat-3bRxxu .welcomeMessage-3_Mcht {visibility:hidden}
+#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {visibility:hidden}
+
+#app-mount .chat-3bRxxu .welcomeMessage-3_Mcht {display:none}
 
 #app-mount .selectorSelected-1_M1WV {background-color: rgba(0, 0, 0, 0.2);box-shadow:0 0 5px var(--accent);border-radius:6px}
 #app-mount .autocomplete-1vrmpx {animation:fadein 350ms ease-in  ;background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 5px var(--accent)}
