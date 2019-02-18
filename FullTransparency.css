@@ -22,7 +22,7 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
 }
 #app-mount .app-2rEoOp,#app-mount .titleBar-AC4pGV {background: var(--bgLayer)}
 #app-mount .wordmark-2iDDfm{display:none}
-#app-mount .titleBar-AC4pGV::after {position:absolute;z-index:-1;top:0;left:0;right:0;width:100%;height:22px;} /* Titlebar layer */
+#app-mount .typeWindows-1za-n7 {padding-top:4px;margin-top: 0}
 #app-mount .backdrop-1wrmKB {background:rgba(0, 0, 0, 0.1) !important}
 body{backface-visibility:hidden}
 
