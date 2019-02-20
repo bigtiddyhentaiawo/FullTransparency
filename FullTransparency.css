@@ -345,6 +345,26 @@ body{backface-visibility:hidden}
 #app-mount .gameLibrary-TTDw4Y .lookFilled-1Gx00P.colorPrimary-3b3xI6 {background-color:transparent}
 #app-mount .gameLibrary-TTDw4Y .libraryHeader-3g95kE .topPill-30KHOu .itemSelected-1qLhcL {background-color:rgba(0, 0, 0, 0.2);box-shadow:0 0 4px var(--accent); color:#fff}
 #app-mount .gameLibrary-TTDw4Y .libraryHeader-3g95kE .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL),.libraryHeader-3g95kE .topPill-30KHOu .item-PXvHYJ:hover {background-color: rgba(0, 0, 0, 0.4)}
+/* Library popout */
+#app-mount .popout-2sKjHu {
+    background: rgba(0, 0, 0, 0.9);
+    border-color: var(--accent);
+    box-shadow:none
+}
+#app-mount .close-18n9bP {
+    color: #fff;opacity:.9
+}
+#app-mount .popout-2sKjHu .optionActive-KkAdqq {background: rgba(0, 181, 18, 0.5)}
+#app-mount .popout-2sKjHu .optionNormal-12VR9V:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--accent)
+}
+#app-mount .splash-9yPB5w {
+    filter: none;height: 120px;
+    mask: none;opacity: .8;border-radius:4px 4px 0 0
+}
+#app-mount .footer-2yfCgX .lookFilled-1Gx00P.colorGreen-29iAKY, #app-mount .installSize-1eXbBX {background-color: transparent}
+#app-mount .footer-2yfCgX .lookFilled-1Gx00P.colorGreen-29iAKY:hover {color: var(--accent)}
 
 /* Store */
 #app-mount .applicationStore-1pNvnv .carouselItem-1qFCGP{opacity:.7!important}
@@ -493,7 +513,7 @@ body{backface-visibility:hidden}
 /* Status and server settings */
 #app-mount .menu-Sp6bN1.alt-3btY0e,#app-mount .menu-Sp6bN1 {background:rgba(0, 0, 0, .85)}
 #app-mount .item-1GzJrl {color:#fff}
-#app-mount .menu-Sp6bN1 .item-1GzJrl:hover {background: rgba(0, 0, 0, 0.3);color:var(--accent) }
+#app-mount .menu-Sp6bN1 .item-1GzJrl:hover {background: rgba(0, 0, 0, 0.3);color:var(--accent)}
 #app-mount .tutorial-3igfYb.shown-3PNP1p{display:none}
 #app-mount .quickswitcher-3JagVE {animation: popin .2s cubic-bezier(0.4, 0, 1, 1);box-shadow:0 0 5px var(--accent);background:rgba(0, 0, 0, 0.9);color:#fff}
 #app-mount .input-2VB9rf, #app-mount .input-2VB9rf:focus{background: transparent; box-shadow:0 0 5px var(--accent)}
@@ -508,7 +528,7 @@ body{backface-visibility:hidden}
 .theme-dark.contextMenu-HLZMGh,#app-mount .container-3cGP6G {background: rgba(0, 0, 0, 0.9);box-shadow: 0 0 5px var(--accent)}
 #app-mount .itemSubMenu-1vN_Yn:hover,#app-mount .item-1Yvehc:hover {background:rgba(0, 0, 0, 0.3);color:var(--accent)}
 
-#app-mount .modal-3HD5ck,#app-mount .tiles-2aXG_k,.regionSelectModal-12e-57 {background-color: rgba(0, 0, 0, 0.7);box-shadow: 0 0 5px var(--accent);}
+#app-mount .modal-3HD5ck,#app-mount .tiles-2aXG_k,.regionSelectModal-12e-57 {background-color: rgba(0, 0, 0, 0.8);box-shadow: 0 0 5px var(--accent)}
 #app-mount .footer-2yfCgX,#app-mount .footer-2VgWkh {background-color: transparent;box-shadow: none}
 #app-mount .header-3ZP1MY,.cancelButton-RGXhAE:before {display:none}
 #app-mount .action-1lSjCi {
