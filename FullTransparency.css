@@ -233,24 +233,24 @@ body{backface-visibility:hidden}
 #app-mount .reactors-Blmlhw {background: transparent}
 
 /* Guilds */
-#app-mount .guildsWrapper-5TJh6A {background: transparent}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ:active {transform: scale(.95);transition: 50ms ease}
-#app-mount .guildsWrapper-5TJh6A .friendsOnline-_wi_fM, 
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildInner-3DSoA4 a {color: var(--accent)}
-#app-mount .guildsWrapper-5TJh6A .guildSeparator-1X4GQ1:after {background:transparent}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildIcon-CT-ZDq, 
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildInner-3DSoA4 {border-radius:var(--round) !important}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ .guildInner-3DSoA4{background:rgba(0, 0, 0, .3) !important}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.selected-ML3OIq::before {
+#app-mount .wrapper-1Rf91z {background: transparent}
+#app-mount .wrapper-1Rf91z .container-2td-dC:active {transform: scale(.95);transition: 50ms ease}
+#app-mount .wrapper-1Rf91z .friendsOnline-2JkivW, 
+#app-mount .wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf a {color: var(--accent)}
+#app-mount .wrapper-1Rf91z .guildSeparator-3s64Iy:after {background:transparent}
+#app-mount .wrapper-1Rf91z .container-2td-dC .guildIcon-VlWW86, 
+#app-mount .wrapper-1Rf91z .wrapper-2lTRaf {border-radius:var(--round) !important}
+#app-mount .wrapper-1Rf91z .wrapper-2lTRaf{background:rgba(0, 0, 0, .3) !important}
+#app-mount .wrapper-1Rf91z .container-2td-dC.selected-nT-gM3::before {
     background:transparent;border-radius: var(--round);box-shadow:0 0 var(--gSelect);
     height: 100%;width:100%;left: 0;top:20px}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.unread-qLkInr::before {
+#app-mount .wrapper-1Rf91z .container-2td-dC.unread-2OHH1w::before {
     background:transparent!important;height:100%;width:100%;top:6px;
     left:0px;box-shadow:0 0 3px 2px var(--unread)}
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.selected-ML3OIq.unread-qLkInr::before {
+#app-mount .wrapper-1Rf91z .container-2td-dC.selected-nT-gM3.unread-2OHH1w::before {
     top:20px;box-shadow:0 0 5px 3px var(--unread);
     background:var(--unread);border-radius:var(--round);transition:none}
-#app-mount .mention-1f5kbO, #app-mount .guildsWrapper-5TJh6A .unreadMentionsBar-1VrBNe {background: rgba(0, 0, 0, 0.8);color:var(--unread);box-shadow:0 0 2px 1px var(--unread);}
+#app-mount .mention-1f5kbO, #app-mount .wrapper-1Rf91z .unreadMentionsBar-1VrBNe {background: rgba(0, 0, 0, 0.8);color:var(--unread);box-shadow:0 0 2px 1px var(--unread);}
 #app-mount .mention-1f5kbO .icon-2aINcz {color:var(--unread)}
 #app-mount .bar-30k2ka{font-size:13px;text-shadow: 0 0 3px #000,0 0 3px #000}
 #app-mount .unreadBar-3YD_k9 {box-shadow: 0 0 1px var(--accent)}
@@ -259,18 +259,18 @@ body{backface-visibility:hidden}
     background-color: rgba(0, 0, 0, 0.8);border-radius: var(--round);box-shadow: 0 0 2px 1px  var(--unread);
     padding: 2px 4px;text-shadow: 0 1px 1px #000,1px 0 2px #000;color: var(--unread)}
 
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.audio-3vVhBi:after, 
-#app-mount .guildsWrapper-5TJh6A .guild-1EfMGQ.video-15yGu3:after {background-color:rgba(0, 0, 0, 0.5)}
+#app-mount .wrapper-1Rf91z .container-2td-dC.audio-2KA0-x:after, 
+#app-mount .wrapper-1Rf91z .container-2td-dC.video-2jNDI4:after {background-color:rgba(0, 0, 0, 0.5)}
 
 #app-mount .wrapper-2NJDcI {background-color: rgba(0, 0, 0, 0.51);color: #fff}
-#app-mount .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background: var(--unread);border-radius: var(--round)}
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before {background: var(--unread);border-radius: var(--round)}
 #app-mount .unread-1Dp-OI {background-color: var(--unread);height:20px;top:11px }
-#app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK {background: rgba(0, 0, 0, 0.4);border-color: #fff;color: #fff;border-radius:var(--round)}
-#app-mount .guildsWrapper-5TJh6A .guildsAdd-21_IdK:hover {background: rgba(0, 0, 0, 0.7);border-color:var(--accent);color: var(--accent)}
+#app-mount .wrapper-1Rf91z .circleIconButton-jET_ig {background: rgba(0, 0, 0, 0.4);border-color: #fff;color: #fff;border-radius:var(--round)}
+#app-mount .wrapper-1Rf91z .circleIconButton-jET_ig:hover {background: rgba(0, 0, 0, 0.7);border-color:var(--accent);color: var(--accent)}
 #app-mount .wrapper-2ZbzR9{background:transparent;box-shadow:0 0 5px var(--accent)}
 
-#app-mount .guildsWrapper-5TJh6A .guildsError-3cFMtY {background: #f0474733}
-#app-mount .guildsWrapper-5TJh6A .guildsError-3cFMtY:hover {background-color: #f0474766}
+#app-mount .wrapper-1Rf91z .guildsError-3cFMtY {background: #f0474733}
+#app-mount .wrapper-1Rf91z .guildsError-3cFMtY:hover {background-color: #f0474766}
 
 /* Friends */
 #app-mount .container-3gCOGc .friendsEmpty-1KQXin {visibility:hidden}
