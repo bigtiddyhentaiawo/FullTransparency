@@ -13,6 +13,8 @@ Copyright © 2018-19, Satoru | All rights reserved | DO NOT DISTRIBUTE
     --sc: var(--accent); /*Accent Color*/
     --bg1: rgba(0,0,0, .7);	/* Background transparency/colour */
     --bc1:var(--accent);	/* Box-shadow  */
+    --gUnread: 5px 1px;  
+
 }
 /* Brightness */
 #app-mount {background-color:var(--brightness);text-shadow:1px 1px 1px #000;border-radius:var(--winRad)}
@@ -245,8 +247,8 @@ body{backface-visibility:hidden}
     background:transparent;border-radius: var(--round);box-shadow:0 0 var(--gSelect);
     height: 100%;width:100%;left: 0;top:20px}
 #app-mount .wrapper-1Rf91z .container-2td-dC.unread-2OHH1w::before {
-    background:transparent!important;height:100%;width:100%;top:6px;
-    left:0px;box-shadow:0 0 3px 2px var(--unread)}
+    background:transparent;height:100%;width:100%;top:6px;
+    left:0px;box-shadow:0 0 var(--gUnread) var(--unread);border-radius: var(--round)}
 #app-mount .wrapper-1Rf91z .container-2td-dC.selected-nT-gM3.unread-2OHH1w::before {
     top:20px;box-shadow:0 0 5px 3px var(--unread);
     background:var(--unread);border-radius:var(--round);transition:none}
@@ -263,7 +265,6 @@ body{backface-visibility:hidden}
 #app-mount .wrapper-1Rf91z .container-2td-dC.video-2jNDI4:after {background-color:rgba(0, 0, 0, 0.5)}
 
 #app-mount .wrapper-2NJDcI {background-color: rgba(0, 0, 0, 0.51);color: #fff}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before {background: var(--unread);border-radius: var(--round)}
 #app-mount .unread-1Dp-OI {background-color: var(--unread);height:20px;top:11px }
 #app-mount .wrapper-1Rf91z .circleIconButton-jET_ig {background: rgba(0, 0, 0, 0.4);border-color: #fff;color: #fff;border-radius:var(--round)}
 #app-mount .wrapper-1Rf91z .circleIconButton-jET_ig:hover {background: rgba(0, 0, 0, 0.7);border-color:var(--accent);color: var(--accent)}
