@@ -1,4 +1,4 @@
-//META{"name":"Full Transparency","description":"A theme designed specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl + R does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.3","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme designed specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl + R does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.3.5","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css'); /* Main theme, do not touch. */
 
@@ -24,25 +24,27 @@ I suggest you take your time to review them all.
     --bgLayer: rgba(0, 0, 0, 0.0) ;			/* Adds a layer for use with wallpapers. Adjust the 4th number(alpha) for brightness. 1 = black, 0 = transparent */ 
     --settings: rgba(0, 0, 0, 0.8) ;		/* Settings menu transparency */
 
+    --homeIcon: url('https://i.imgur.com/yA3h4mo.png');
+
     --bgBlur: 0px;								/* Optional blur effect for secondary wallpaper. */
 	--bgOpacity:0.6;							/* Opacity on the secondary wallpaper. */
 
 	--winRad: 4px;								/* Discord window radius/roundness */
 
-    --accent: rgba(0, 192, 255, 0.7) ;		/* Main theme accent colours */
-    --border: rgba(0, 192, 255, 0.7);		/* Border Colours */
-    --gSelect:5px 2px rgba(255, 178, 0, 0.7);	/* Currently selected guild colour. 5px 2px Default */ 
+    --accent: rgba(255, 0, 255, 0.7) ;		/* Main theme accent colours */
+    --border: rgba(255, 0, 255, 0.7);		/* Border Colours */
+    --gSelect:rgba(0, 255, 245, 0.7);	/* Currently selected guild colour. 5px 2px Default */ 
     --gUnread: 5px 1px;                         /* Guilds Unread 3px 2px default. (Glow, Spread) */
-    --unread: rgba(0, 192, 255, 0.8) ;		/* Unread messages colour */
-	--sb: 	  rgba(0, 192, 255, 0.2) ;		/* Scrollbars. */
+    --unread: rgba(255, 25, 25, 0.9) ;		/* Unread messages colour */
+	--sb: 	  rgba(237, 55, 255, 0.2) ;		/* Scrollbars. */
 
-    --round: 30%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
+    --round: 50%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
 
     --font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif ;	/* Discord default font - Whitney,Helvetica Neue,Helvetica,Arial,sans-serif */
     --fontsize: .92em;
     --textcolor: #fff;					/* Chat text colour */
 
-    --profileradius: 5px;			/* User popout profiles. 0 is normal squared edges. Up to 50px for rounded profiles. */
+    --profileRadius: 5px;			/* User popout profiles. 0 is normal squared edges. Up to 50px for rounded profiles. */
     --rolesRadius: 6px;      /* Roles roundness */
 	--color: #fff;				/* PFP Name colour */
 
@@ -55,7 +57,7 @@ I suggest you take your time to review them all.
 	--slColour: rgb(0, 0, 0);			/* Secondary line colour */
 
 	/* GlowStatus */
-    --sglow: 5px 2px;	/* Blur/Thickness Default: 5px 2px */
+    --sGlow: 5px 2px;	/* Blur/Thickness Default: 5px 2px */
 
     --online: #00ff8b;		/* Status Colours */
     --offline: #747f8d;
