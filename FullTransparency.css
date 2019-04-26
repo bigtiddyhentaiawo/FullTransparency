@@ -284,6 +284,7 @@ body{backface-visibility:hidden}
     height: 48px;
     width: 48px;
 }
+#app-mount .channels-Ie2l6A .icon-1_QxNX {width:15px;height:15px}
 
 #app-mount .wrapper-1Rf91z .listItem-2P_4kh:active {transform: scale(.95);transition: 50ms ease}
 
@@ -314,6 +315,7 @@ body{backface-visibility:hidden}
 	color:var(--unread);
 	box-shadow:0 0 2px 1px var(--unread)
 }
+
 #app-mount .mention-1f5kbO .icon-2aINcz {color:var(--unread)}
 
 #app-mount .bar-30k2ka {font-size:13px;text-shadow: 0 0 3px #000,0 0 3px #000}
