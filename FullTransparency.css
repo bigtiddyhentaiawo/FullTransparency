@@ -321,7 +321,6 @@ body{backface-visibility:hidden}
 #app-mount .bar-30k2ka {font-size:13px;text-shadow: 0 0 3px #000,0 0 3px #000}
 #app-mount .unreadBar-3YD_k9 {box-shadow: 0 0 1px var(--border)}
 
-
 .numberBadge-2s8kKX, 
 .iconBadge-2NuvG9 {
     background-color: rgba(0, 0, 0, 0.8) !important;
@@ -330,8 +329,7 @@ body{backface-visibility:hidden}
     color: var(--unread)
 }
 
-#app-mount .wrapper-1Rf91z .container-2td-dC.audio-2KA0-x:after, 
-#app-mount .wrapper-1Rf91z .container-2td-dC.video-2jNDI4:after {background-color:rgba(0, 0, 0, 0.5)}
+#app-mount .wrapper-1Rf91z .upperBadge-2XnnGB .iconBadge-2NuvG9 {background-color:rgba(0, 0, 0, 0.5)}
 
 #app-mount .wrapper-2NJDcI {background-color: rgba(0, 0, 0, 0.51);color: #fff}
 
