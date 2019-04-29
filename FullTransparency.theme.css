@@ -1,14 +1,16 @@
-//META{"name":"Full Transparency","description":"A theme designed specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl + R does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.3.5","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Full Transparency","description":"A theme designed specifically for using the transparency option in BetterDiscord, with extra features/animations. Use together with FullTransparency plugin.(Not required)<br><br> *Fully close discord and reopen when first turning on transparency option. Ctrl + R does not work.<br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.4","website":"http://discord.gg/fjvwb95"}*//{}
 
 @import url('https://satoru8.github.io/FullTransparency/FullTransparency.css'); /* Main theme, do not touch. */
 
 /* Addons start here. If you dont like an addon, remove the import */
-@import url('https://satoru8.github.io/Addons/FullScreenStatusPicker/fullScreenStatusPicker.css');
 @import url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/fullScreenServerSettingsMenu.css');
+@import url('https://satoru8.github.io/Addons/FullScreenStatusPicker/fullScreenStatusPicker.css');
+@import url('https://satoru8.github.io/Addons/Compact/Settings/CompactSettings.css');
+@import url('https://satoru8.github.io/Addons/OldUserSettings/oldUserSettings.css');
 @import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
 @import url('https://satoru8.github.io/FullSizePfp/FullSizePfp.css');
-@import url('https://satoru8.github.io/Addons/GlowStatus.css');
 @import url('https://satoru8.github.io/Addons/FriendsList.css');
+@import url('https://satoru8.github.io/Addons/GlowStatus.css');
 @import url('https://satoru8.github.io/Addons/Library.css');
 
 /*
@@ -48,8 +50,10 @@ I suggest you take your time to review them all.
     --rolesRadius: 6px;      /* Roles roundness */
 	--color: #fff;				/* PFP Name colour */
 
-	--w2: 75% ;		/* Settings width */
-	--h2: 85% ;		/* Settings height */
+    --sWidth2: 70% ; 	/* Settings Width */
+    --sHeight2: 90% ; 	/* Settings Height */
+    --sBackdrop2: rgba(0, 0, 0, 0.6) ;	/* Settings Background/Colour */
+    --sRadius2: 6px ;		/* Settings Border Radius */
 
 	/* CodeBlocks */
 	--cbBG: rgba(0, 0, 0, 0.5);			/* Main background colour */
