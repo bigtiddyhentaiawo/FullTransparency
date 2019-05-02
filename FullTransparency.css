@@ -758,12 +758,9 @@ body{backface-visibility:hidden}
     /* Members small */
 #app-mount .userPopout-3XzG_A {animation: userpopout .4s cubic-bezier(0.4, 0, 1, 1);position:relative;left:-20px}
 
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN,
-#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
-#app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT,
-#app-mount .userPopout-3XzG_A .headerStreaming-2FjmGz,
 #app-mount .userPopout-3XzG_A .body-3iLsc4, 
-#app-mount .userPopout-3XzG_A .footer-1fjuF6 {background: rgba(0, 0, 0, 0.85)}
+#app-mount .userPopout-3XzG_A .footer-1fjuF6,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN {background: rgba(0, 0, 0, 0.85)}
 
 #app-mount .userPopout-3XzG_A .quickMessage-1yeL4E {background-color: rgba(0, 0, 0, 0);border: none;box-shadow: 0 0 5px var(--border)}
 #app-mount .autocompleteArrowWrapper-3Z7OuM {display:none}
@@ -771,20 +768,34 @@ body{backface-visibility:hidden}
 #app-mount .userPopout-3XzG_A .rolesList-22qj2L {overflow-y:auto;max-height:115px}
 #app-mount .userPopout-3XzG_A .note-3kmerW textarea {background: rgba(0, 0, 0, 0.2);text-align:center;color: #fff;box-shadow:0 0 3px var(--border);border-radius:6px}
 #app-mount .container-VSDcQc.positionTop-3e-X1p {box-shadow:0 0 5px var(--border)}
-#app-mount .autocompleteHeaderBackground-30T70q,#app-mount .container-VSDcQc .sectionTag-pXyto9 {background-color:rgba(0, 0, 0, 0.85)}
+#app-mount .autocompleteHeaderBackground-30T70q, 
+#app-mount .container-VSDcQc .sectionTag-pXyto9 {background-color:rgba(0, 0, 0, 0.85)}
 #app-mount .row-rrHHJU.selected-1pIgLL {background: linear-gradient(0deg,#0000,var(--accent),#0000,#0000,#0000,var(--accent),#0000)}
 #app-mount .container-VSDcQc .header-2bNvm4 {box-shadow: 0 -1px 0 var(--border)}
 
     /* large */
-#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n, 
+ 
 #app-mount .root-SR8cQa .topSectionNormal-2-vo2m,
-#app-mount .root-SR8cQa .body-3ND3kc, 
-#app-mount .root-SR8cQa .topSectionSpotify-1lI0-P,
-#app-mount .root-SR8cQa .topSectionStreaming-1Tpf5X {
-    background: rgba(0, 0, 0, 0.8)
+#app-mount .root-SR8cQa .body-3ND3kc {
+    background: rgba(0, 0, 0, 0.9)
 }
+
+#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV,
+#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n {background: rgba(0, 20, 88, 0.9)}
+
+#app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT,
+#app-mount .root-SR8cQa .topSectionSpotify-1lI0-P {background: rgba(0, 51, 18, 0.9)}
+
+#app-mount .userPopout-3XzG_A .headerStreaming-2FjmGz,
+#app-mount .root-SR8cQa .topSectionStreaming-1Tpf5X {background:rgba(42, 0, 113, 0.9)}
+
+#app-mount .root-SR8cQa .tabBarItem-1b8RUP {
+    left:100px
+}
+
 #app-mount .root-SR8cQa {box-shadow: 0 0 5px var(--border)}
-#app-mount .root-SR8cQa .connectedAccount-36nQx7 {border:none; box-shadow:0 0 5px var(--border); border-radius: 6px }
+#app-mount .root-SR8cQa .connectedAccount-36nQx7 {background:rgba(0, 0, 0, 0.2);border:none;box-shadow:0 0 5px var(--border); border-radius: 6px }
+#app-mount .root-SR8cQa .connectedAccount-36nQx7:hover {background:rgba(0, 0, 0, 0.5);box-shadow:0 0 5px 1px var(--border)}
 #app-mount .root-SR8cQa .listRow-hutiT_:hover {
     background: transparent;
     box-shadow: 0 0 5px var(--border);
