@@ -44,9 +44,16 @@ body{backface-visibility:hidden}
 #app-mount .applicationStore-1pNvnv .scroller-2FKFPG::-webkit-scrollbar-track {display:none}
 
     /* Fonts/Text */
-::placeholder, body, button, input, select, textarea:not([class*="hljs"]):not(code){font-family: var(--font) !important}
-#app-mount .markup-2BOw-j:not(code) {color: var(--textcolor);font-size: var(--fontsize) !important;}
-#app-mount ::placeholder{color:rgba(255, 255, 255, 0.8)}
+::placeholder, body, button, input, select, textarea:not([class*="hljs"]):not(code) {
+    font-family: var(--font)
+}
+
+#app-mount .markup-2BOw-j:not(code) {
+    color: var(--textColour);
+    font-size: var(--fontSize)
+}
+
+#app-mount ::placeholder {color:rgba(255, 255, 255, 0.8)}
 #app-mount ::selection {background: var(--accent)}
 
     /* Main Trans */
@@ -152,7 +159,7 @@ body{backface-visibility:hidden}
 
 #app-mount .selectorSelected-1_M1WV {background-color: rgba(0, 0, 0, 0.2);box-shadow:0 0 5px var(--border);border-radius:6px}
 #app-mount .autocomplete-1vrmpx {animation:fadein 350ms ease-in  ;background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 5px var(--border)}
-#app-mount .inner-zqa7da {background-color: rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--border)}
+#app-mount .inner-zqa7da {background-color: rgba(0, 0, 0, 0.3);box-shadow:0 0 3px var(--border)}
 #app-mount .textArea-2Spzkt {color:#fff}
 #app-mount .container-3ISnnM .header-1TOWci .searchBar-1MOL6S {background:#0000004d;border-radius:6px}
 #app-mount .content-ySCtCx .result-3w1ZcL:hover {box-shadow:0 0 5px 2px var(--border)}
@@ -179,23 +186,29 @@ body{backface-visibility:hidden}
 #app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {background:rgba(0, 0, 0, 0.4)}
 
     /* Members List */
+#app-mount .membersWrap-2h-GB4 .membersGroup-v9BXpm {text-align:center}
+
 #app-mount .membersWrap-2h-GB4 .membersGroup-v9BXpm,
 #app-mount .membersWrap-2h-GB4 .activity-1IYsbk,
 #app-mount .membersWrap-2h-GB4 .memberOnline-1CIh-0 {color: rgba(255, 255, 255, 0.9)}
-#app-mount .membersWrap-2h-GB4 .membersGroup-v9BXpm {text-align:center}
+
 #app-mount .membersWrap-2h-GB4 .member-3W1lQa:hover .content-OzHfo4, 
 #app-mount .membersWrap-2h-GB4 .member-3W1lQa.popout-open .content-OzHfo4 {
-    background-color: rgba(0, 0, 0, 0.3);box-shadow:0 0 5px var(--border);
-    padding: 2px;margin:0 4px 0 2px;border-radius:4px
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow:0 0 5px var(--border);
+    padding: 4px;
+    margin:0 4px 0 2px;
+    border-radius:4px
 }
 #app-mount .membersWrap-2h-GB4 .member-3W1lQa.popout-open:hover .content-OzHfo4 {background: rgba(0, 0, 0, 0.5)}
 
 #app-mount .chat-3bRxxu .username-_4ZSMR[style*="0, 0, 1"], 
-#app-mount .membersWrap-2h-GB4 .nameTag-3p0yK-[style*="0, 0, 1"] {color: #fff !important}
+#app-mount .membersWrap-2h-GB4 .nameTag-3p0yK-[style*="0, 0, 1"] {color: #ddd !important}
 
 #app-mount .mobileIndicator-3gyhuE, 
-#app-mount .mobileIndicator-U-7hTl{color:#fff}
-#app-mount .activityIconForeground-3VIgI8 {fill:#fff}
+#app-mount .mobileIndicator-U-7hTl{color:#ddd}
+
+#app-mount .activityIconForeground-3VIgI8 {fill:#ddd}
 
     /* Channels */
 #app-mount .channels-Ie2l6A .header-2o-2hj:hover, 
@@ -355,6 +368,7 @@ body{backface-visibility:hidden}
 
     /* Guilds */
 #app-mount .wrapper-1Rf91z,
+#app-mount .dragPlaceholder-D9-haY,
 #app-mount .button-OhfaWu.wrapper-1BJsBx,
 #app-mount .button-OhfaWu.selected-wSa2KV.wrapper-1BJsBx,
 #app-mount .wrapper-1Rf91z .guildSeparator-3s64Iy,
