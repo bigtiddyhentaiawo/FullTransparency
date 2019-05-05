@@ -42,7 +42,7 @@ I suggest you take your time to review them all.
     --round: 50%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
 
     --font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif ;	/* Discord default font - Whitney,Helvetica Neue,Helvetica,Arial,sans-serif */
-    --fontSize: 13px;
+    --fontSize: 14px;
     --textColour: #fff;					/* Chat text colour */
 
     --profileRadius: 5px;			/* User popout profiles. 0 is normal squared edges. Up to 50px for rounded profiles. */
