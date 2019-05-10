@@ -293,7 +293,12 @@ body{backface-visibility:hidden}
 #app-mount .content-3at_AU .total-3tKGEB {width:100%}
 
 #app-mount .channels-Ie2l6A .container-1UB9sr {background:transparent;border:none;padding:2px}
-
+#app-mount .channels-Ie2l6A .inner-btChU7 .rtc-connection-status .ping.status-_2Z-j- {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    background-size: 15px
+}
 
     /* VideoChat */
 #app-mount .backgroundBlur-dazcBE{background-image: none !important}
@@ -947,18 +952,7 @@ body{backface-visibility:hidden}
 
 #app-mount .banner-3Kac2g{opacity:.5}
 #app-mount .divider-3kJiJM {display:none}
-    /* Original snippet from zere*/
-:root{--w2: 75%;--h2: 85%}
-.layers-3iHuyZ {align-items:center;justify-content:center}
-.layers-3iHuyZ > .layer-3QrUeG:first-child {opacity: 1!important;transform: none!important;}
-.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child {z-index: 1}
-.layers-3iHuyZ > .layer-3QrUeG:nth-child(2) {background:var(--settings)!important;
-    box-shadow:0 0 5px 1px var(--border);border-radius:6px;
-    width: var(--w2);height: var(--h2);top:unset;bottom:unset;right:unset;left:unset;
-    display: block;overflow: visible;transform: translateZ(0);z-index: 3}
-#bd-settingspane-container {width: var(--w2);display: block}
-.toolsContainer-1edPuj {padding-top: 20px}
-    /*      */
+
 #app-mount .repo-controls .searchBar-1MOL6S{background-color: rgba(0, 0, 0, 0.8);border:1px solid var(--border)}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,.themeDefault-24hCdX.sizeDefault-2YlOZr{background:rgba(0, 0, 0, 0.4);border:1px solid var(--border)}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.themeDefault-24hCdX.valueChecked-m-4IJZ {background: var(--accent)}
@@ -1119,6 +1113,8 @@ body{backface-visibility:hidden}
 .recTab.active,.favTab.active {background: var(--accent)}
 .rLinks, .fLinks {box-shadow:0 0 4px var(--border)}
 
+
+
 .bd-modal-wrapper .bd-modal-inner {
     border: none;background:rgba(0, 0, 0, 0.8);
     border-radius: 6px;
@@ -1146,6 +1142,10 @@ body{backface-visibility:hidden}
 #app-mount #charcounter {
     color: #fff;
     opacity: .7;
+}
+
+#app-mount #MemberCount {
+    background:transparent
 }
 
 #app-mount .select-2TCrqx .Select-control,
