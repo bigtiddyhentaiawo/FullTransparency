@@ -53,11 +53,11 @@ I suggest you take your time to review them all.
     --sWidth2: 70% ; /* Settings Width */
     --sHeight2: 90% ; /* Settings Height */
     
-    --sBackground: rgba(60, 60, 60, 0.8) ;  /* Overall Main Settings Background */ 
+    --sBackground: rgba(40, 40, 40, 0.9) ;  /* Overall Main Settings Background */ 
     --sBackgroundRight: transparent ;   /* Right side settings Colour - Set to transparent to use 'sBackground' setting. */
     --sBackgroundLeft: transparent ;    /* Left side settings Colour - Set to transparent to use 'sBackground' setting. */
 
-    --sBackdrop2: rgba(0, 0, 0, 0.5) ; /* Settings Backdrop transparency/colour */
+    --sBackdrop2: rgba(0, 0, 0, 0.3) ; /* Settings Backdrop transparency/colour */
     --sRadius2: 6px ;   /* Settings Border Radius(Roundness) */
 
     --blurSpeed: 200ms ; /* Email Blur Speed */
