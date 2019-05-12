@@ -61,13 +61,15 @@ body{backface-visibility:hidden}
 #app-mount .markup-2BOw-j code.inline, #app-mount .root-1BQpZw, #app-mount .membersWrap-2h-GB4 .members-1998pB,
 #app-mount .messagesWrapper-3lZDfY, #app-mount .container-3gCOGc, #app-mount .applicationStore-1pNvnv,
 #app-mount .standardSidebarView-3F1I7i, #app-mount .sidebarRegion-VFTUkN, #app-mount .option-1l2vXE,
-#app-mount .gameLibrary-TTDw4Y, #app-mount .activityFeed-1C0EmJ, #app-mount .markup-2BOw-j pre,
-#app-mount .channels-Ie2l6A, #app-mount .container-PNkimc, #app-mount .container-2Thooq, #app-mount .divider-3FBTu8,
-#app-mount .chat-3bRxxu, #app-mount .chat-3bRxxu form, #app-mount .content-yTz4x3, #app-mount .container-1r6BKw,
-#app-mount .title-3qD0b-, #app-mount .headerBar-UHpsPw, #app-mount .header-39GIC8, #app-mount .children-19S4PO:after,
-#app-mount .tile-2OwFgW, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse, #app-mount .pageWrapper-1PgVDX {
+#app-mount .gameLibrary-TTDw4Y, #app-mount .activityFeed-1C0EmJ, #app-mount .markup-2BOw-j pre, 
+#app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy, #app-mount .channels-Ie2l6A, #app-mount .container-PNkimc, 
+#app-mount .container-2Thooq, #app-mount .divider-3FBTu8, #app-mount .chat-3bRxxu, #app-mount .chat-3bRxxu form,
+#app-mount .content-yTz4x3, #app-mount .container-1r6BKw, #app-mount .title-3qD0b-, #app-mount .headerBar-UHpsPw, 
+#app-mount .header-39GIC8, #app-mount .children-19S4PO:after, #app-mount .tile-2OwFgW, 
+#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse, #app-mount .pageWrapper-1PgVDX {
     background: transparent
 }
+
     /* Login/Crash */
 #app-mount .wrapper-3Q5DdO,
 #app-mount .platform-win .splashBackground-1FRCko:before {background: none}
@@ -938,7 +940,7 @@ body{backface-visibility:hidden}
 
 #app-mount .standardSidebarView-3F1I7i,
 #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
-#app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy {background: transparent;border-radius:6px}
+#app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy {border-radius:6px}
 
 #app-mount .grandfatheredMessage-1BnHtv, 
 #app-mount .container-2Zlzt0 {background: rgba(0, 0, 0, 0.3)}
