@@ -1101,6 +1101,7 @@ body{backface-visibility:hidden}
 .bd-controls .bd-buttonGroup .bd-button.bd-err:hover {background: #d84040cc}
 
     /* Plugin/Other Support */
+    /* FT */
 .bgModal {box-shadow:0 0 5px var(--border)}
 .bgModal, .bgContent {background:rgba(0, 0, 0, 0.4);color:#fff}
 .bgHead {border-bottom:1px solid var(--border)}
@@ -1114,8 +1115,36 @@ body{backface-visibility:hidden}
 .recTab:hover, .favTab:hove,
 .recTab.active,.favTab.active {background: var(--accent)}
 .rLinks, .fLinks {box-shadow:0 0 4px var(--border)}
+    
+    /* Server Names */
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh .blobContainer-239gwq .wrapper-25eVIn, 
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh .blob-1PX1Gp.wrapper-25eVIn, 
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh .circleButtonMask-2VNJsN.wrapper-25eVIn {
+    overflow:visible;
+}
 
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh .blob-1PX1Gp .svg-1X37T1,
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh .circleIconButton-jET_ig {
+    border-radius: 0!important
+}
 
+.DSAC-styled .wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+	display:none
+}
+
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh.DSAC-selected .wrapper-25eVIn,
+.DSAC-styled .wrapper-1Rf91z .circleIconButton-jET_ig:hover,
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh .blobContainer-239gwq .wrapper-25eVIn:hover {
+    border-radius: 4px!important;
+    background:rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px var(--border);
+}
+
+.DSAC-styled .wrapper-1Rf91z .listItem-2P_4kh.DSAC-selected .wrapper-25eVIn:hover {
+	background: rgba(0, 0, 0, 0.5)
+}
+    
+    /*  */
 
 .bd-modal-wrapper .bd-modal-inner {
     border: none;background:rgba(0, 0, 0, 0.8);
